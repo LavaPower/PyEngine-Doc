@@ -27,7 +27,22 @@ Sommaire :
 
 .. toctree::
    :maxdepth: 1
-   :caption: Classes
-   :name: sec-classes
+   :caption: API
+   :name: sec-api
 
-   Classes/Window
+   API/Window
+   API/GameState
+   API/World
+   API/Entity
+   API/Enums
+   API/Exceptions
+   API/Systems/MusicSystem
+   API/Systems/UISystem
+   API/Systems/EntitySystem
+   API/Components/PositionComponent
+   API/Components/SpriteComponent
+   API/Components/TextComponent
+   API/Components/PhysicsComponent
+   API/Components/ControlComponent
+   API/Components/LifeBarComponent
+
