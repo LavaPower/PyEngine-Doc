@@ -13,6 +13,9 @@ N'hésitez pas à y revenir dès que vous avez un problème.
 Sommaire :
 
 .. toctree::
-    :maxdepth: 1
-    :caption: Coming Soon
-    :name: sec-coming
+   :maxdepth: 1
+   :caption: Informations
+   :name: sec-general
+
+   Informations/introduction
+   Informations/faq
