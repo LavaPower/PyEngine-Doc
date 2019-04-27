@@ -7,7 +7,6 @@ PyEngine est constamment en développement, la documentation est donc susceptibl
 N'hésitez pas à y revenir dès que vous avez un problème.
 
 .. note:: Il est important de rappeler que PyEngine est un projet OpenSource et développé par des personnes non professionnel.
-
     Vous pouvez, vous aussi, y participer via le github.
 
 Sommaire :
@@ -18,4 +17,17 @@ Sommaire :
    :name: sec-general
 
    Informations/introduction
+   Informations/telechargement-et-installation
    Informations/faq
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Tutoriels
+   :name: sec-tuto
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Classes
+   :name: sec-classes
+
+   Classes/Window
