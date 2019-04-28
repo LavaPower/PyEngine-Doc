@@ -13,6 +13,61 @@ Constructeur
     - color <list> ((255, 255, 255)) : Couleur du texte
     - font <list> (["arial", 15, False, False]) : Police du texte
 
+.. note:: La police est composé comme ceci : [Nom, Taille, Gras, Italique].
+    Vous pouvez omettre des éléments mais seulement dans l'ordre.
+    
+    Exemple : Vous pouvez écrire [Nom, Taille] mais pas [Nom, Gras, Italique]
+
+set_color
+---------
+
+:Description: Définis la couleur du texte
+:Retourne: Rien
+:Paramètre: color <list> : Couleur (RGB ou RGBA)
+
+get_color
+---------
+
+:Description: Récupère la couleur du texte
+:Retourne: <list> : Couleur (RGB ou RGBA)
+:Paramètres: Rien
+
+set_text
+--------
+
+:Description: Définis le texte
+:Retourne: Rien
+:Paramètre: text <string> : Texte
+
+get_text
+--------
+
+:Description: Récupère le texte
+:Retourne: <string> : Texte
+:Paramètres: Rien
+:Paramètres: Rien
+
+set_font
+--------
+
+:Description: Définis la police
+:Retourne: Rien
+:Paramètre: police <list> : Police
+
+.. note:: La police est composé comme ceci : [Nom, Taille, Gras, Italique].
+    Vous pouvez omettre des éléments mais seulement dans l'ordre.
+    
+    Exemple : Vous pouvez écrire [Nom, Taille] mais pas [Nom, Gras, Italique]
+
+get_font
+--------
+
+:Description: Récupère la police
+:Retourne: <list> : Police
+:Paramètres: Rien
+
+.. note:: La police est composé comme ceci : [Nom, Taille, Gras, Italique]
+
 get_id
 ------
 
