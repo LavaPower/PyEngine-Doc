@@ -9,7 +9,6 @@ Constructeur
 ------------
 
 :Description: Créer l'objet TextComponent
-:Retourne: Rien
 :Paramètres:
     - texte <string> : Texte à afficher
     - color <list> ((255, 255, 255)) : Couleur du texte

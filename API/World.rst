@@ -7,7 +7,6 @@ Construteur
 -----------
 
 :Description: Créer l'objet World
-:Retourne: Rien
 :Paramètres: Rien
 
 Voici ces méthodes :
@@ -27,10 +26,9 @@ get_system
 ----------
 
 :Description: Récupère un système du monde
-:Retourne: <EntitySystem|MusicSystem|UISystem> : Systeme du type <classe>
+:Retourne: <EntitySystem|MusicSystem|UISystem|None> : Systeme du type <classe> 
+    s'il existe
 :Paramètre: <EntitySystem|MusicSystem|UISystem> : Classe du système à récupérer
-
-.. warning:: Peut retourner une exception : NoSystemError
 
 has_system
 ----------

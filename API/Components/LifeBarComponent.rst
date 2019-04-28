@@ -7,7 +7,6 @@ Constructeur
 ------------
 
 :Description: Créer l'objet LifeBarComponent
-:Retourne: Rien
 :Paramètres:
     - maxlife <int> (100) : Vie maximum
     - sprites <list> (None) : Sprites de la barre de vie

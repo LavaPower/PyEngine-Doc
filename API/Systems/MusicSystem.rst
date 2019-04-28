@@ -37,7 +37,7 @@ play
 :Retourne: Rien
 :Paramètres: Rien
 
-.. warning:: Peut retourner une exception : NoMusicError
+.. warning:: Peut retourner une exception : NoObjectError
 
 add
 ---

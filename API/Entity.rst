@@ -7,7 +7,6 @@ Construteur
 -----------
 
 :Description: Créer l'objet Entity
-:Retourne: Rien
 :Paramètres: Rien
 
 Voici ces méthodes :
@@ -31,13 +30,11 @@ add_component
 
 :Description: Ajoute un composant à l'entité
 :Retourne: <Components> : Composant ajouté
-:Paramètres: 
-    - component <Components> : Composant à ajouter
-    - param <Liste> : Liste des paramètres utilisés par le composant
+:Paramètres: component <Components> : Composant à ajouter
 
 .. note:: Components fait référence à toutes les classes étant des composants.
 
-.. warning:: Peut retourner une exception : WrongComponentError
+.. warning:: Peut retourner une exception : WrongObjectError
 
 has_component
 -------------
@@ -52,9 +49,8 @@ get_component
 -------------
 
 :Description: Récupère un composant de l'entité
-:Retourne: <Components> : Composant dont le type est <component>
+:Retourne: <Components|None> : Composant dont le type est 
+    <component> s'il existe
 :Paramètre: component <Components> : Composant à récupérer
 
 .. note:: Components fait référence à toutes les classes étant des composants.
-
-.. warning:: Peut retourner une exception : NoComponentError

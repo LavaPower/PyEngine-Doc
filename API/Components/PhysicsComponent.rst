@@ -7,7 +7,6 @@ Constructeur
 ------------
 
 :Description: Créer l'objet PhysicsComponent
-:Retourne: Rien
 :Paramètres:
     - affectbygravity <bool> (True) : Affecté par la gravité ou non
     - gravity_force <int> (5) : Puissance de la gravité

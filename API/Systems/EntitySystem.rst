@@ -19,4 +19,4 @@ add_entity
 :Retourne: <Entity> : Entité ajoutée
 :Paramètre: entity <Entity> : Entité à ajouter
 
-.. warning:: Peut retourner une exception : NoComponentError
+.. warning:: Peut retourner une exception : NoObjectError

@@ -25,17 +25,20 @@ Sommaire :
    :caption: Tutoriels
    :name: sec-tuto
 
+   Tutoriels/Coming-Soon
+
 .. toctree::
    :maxdepth: 1
    :caption: API
    :name: sec-api
 
+   API/Enums
+   API/Exceptions
+
    API/Window
    API/GameState
    API/World
    API/Entity
-   API/Enums
-   API/Exceptions
    API/Systems/MusicSystem
    API/Systems/UISystem
    API/Systems/EntitySystem
@@ -45,4 +48,7 @@ Sommaire :
    API/Components/PhysicsComponent
    API/Components/ControlComponent
    API/Components/LifeBarComponent
+   API/Widgets/Widget
+   API/Widgets/Label
+   API/Widgets/Image
 

@@ -7,7 +7,6 @@ Construteur
 -----------
 
 :Description: Créer l'objet Window
-:Retourne: Rien
 :Paramètres:
     - width <integer> : Largeur de la fenêtre
     - height <integer> : Hauteur de la fenêtre
@@ -72,4 +71,4 @@ run
 :Retourne: Rien
 :Paramètres: Rien
 
-.. warning:: Peut retourner les exceptions : NoGameStateError, GameStateInitializedError et NoWorldError
+.. warning:: Peut retourner les exceptions : NoObjectError

@@ -7,7 +7,6 @@ Constructeur
 ------------
 
 :Description: Créer l'objet PositionComponent
-:Retourne: Rien
 :Paramètres:
     - position <list> : Position de l'entité
     - offset <list> ([0, 0]) : Offset de l'entité

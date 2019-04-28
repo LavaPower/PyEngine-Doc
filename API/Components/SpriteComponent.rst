@@ -9,7 +9,6 @@ Constructeur
 ------------
 
 :Description: Créer l'objet SpriteComponent
-:Retourne: Rien
 :Paramètres:
     - image <string> : Chemin vers le sprite
     - scale <integer> (1) : "Zoom" sur le sprite
