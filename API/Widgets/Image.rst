@@ -14,6 +14,34 @@ Constructeur
 
 .. note:: Si size vaut None, l'image ne sera pas redimentionnée.
 
+get_image
+---------
+
+:Description: Récupère le chemin de l'image
+:Retourne: <string> : Chemin de l'image
+:Paramètres: Rien
+
+set_image
+---------
+
+:Description: Définis l'image
+:Retourne: Rien
+:Paramètre: <string> : Chemin de l'image
+
+get_size
+--------
+
+:Description: Récupère la taille de l'image
+:Retourne: <list> : Taille de l'image
+:Paramètres: Rien
+
+set_grid
+--------
+
+:Description: Définis la taille de l'image
+:Retourne: Rien
+:Paramètre: <list> : Taille de l'image
+
 get_id
 ------
 
