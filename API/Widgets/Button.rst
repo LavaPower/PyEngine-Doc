@@ -28,12 +28,26 @@ get_label
 .. warning:: Certaines modification (notamment du contenu) peuvent entrainer
     des erreurs de placement. Pour les régler, il faut utiliser `Button.update()`
 
-update
-------
+update_all
+----------
 
 :Description: Met à jour les placements du boutons et de son label
 :Retourne: Rien
 :Paramètres: Rien
+
+get_size
+--------
+
+:Description: Récupère la taille du bouton
+:Retourne: <list> : Taille du bouton
+:Paramètres: Rien
+
+set_size
+--------
+
+:Description: Définis la taille du bouton
+:Retourne: Rien
+:Paramètre: <list> : Taille du bouton
 
 get_command
 -----------
