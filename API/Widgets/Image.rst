@@ -35,7 +35,7 @@ get_size
 :Retourne: <list> : Taille de l'image
 :Paramètres: Rien
 
-set_grid
+set_size
 --------
 
 :Description: Définis la taille de l'image
