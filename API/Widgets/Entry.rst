@@ -11,6 +11,20 @@ Constructeur
     - position <list> : Position du widget
     - width <int> (200) : Largeur du widget
 
+get_text
+--------
+
+:Description: Récupère le texte du widget
+:Retourne: <string> : Texte du widget
+:Paramètres: Rien
+
+set_text
+--------
+
+:Description: Définis le texte du widget
+:Retourne: Rien
+:Paramètre: text <string> : Texte du widget
+
 get_id
 ------
 
@@ -39,4 +53,4 @@ set_position
 
 :Description: Définis la position du widget
 :Retourne: Rien
-:Paramètre: <list> : Position du widget
+:Paramètre: position <list> : Position du widget
