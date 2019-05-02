@@ -17,6 +17,34 @@ Construteur
 
 Voici ces méthodes :
 
+set_color
+---------
+
+:Description: Change la couleur de la fenêtre
+:Retourne: Rien
+:Paramètre: color <list> : Couleur de la fenêtre
+
+get_color
+---------
+
+:Description: Récupère la couleur de la fenêtre
+:Retourne: <list> : Couleur de la fenêtre
+:Paramètres: Rien
+
+set_debug
+---------
+
+:Description: Change si la fenêtre est en mode debug
+:Retourne: Rien
+:Paramètre: debug <boolean> : Mode debug de la fenêtre
+
+get_debug
+---------
+
+:Description: Récupère si la fenêtre est en mode debug
+:Retourne: <boolean> : Mode debug de la fenêtre
+:Paramètres: Rien
+
 set_title
 ---------
 
