@@ -10,7 +10,10 @@ Construteur
 :Paramètres:
     - width <integer> : Largeur de la fenêtre
     - height <integer> : Hauteur de la fenêtre
+    - color <list> (None) : Couleur de fond
     - debug <boolean> (False) : Mode debug
+
+.. note:: Si color est égal à None, color vaut (0, 0, 0) (soit noir)
 
 Voici ces méthodes :
 
