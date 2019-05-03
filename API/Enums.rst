@@ -39,6 +39,8 @@ CollisionCauses
         créé par un ControlComponent
     - DOWNCONTROL : Causée par un déplacement en bas 
         créé par un ControlComponent
+    - MOVECOMPONENT : Causée par un déplacement crée par
+        un MoveComponent
 
 .. note:: Si une collision à lieu à cause d'un saut, c'est la cause GRAVITY qui sera affichée.
 
