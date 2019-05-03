@@ -46,6 +46,7 @@ Sommaire :
    API/Components/SpriteComponent
    API/Components/TextComponent
    API/Components/PhysicsComponent
+   API/Components/MoveComponent
    API/Components/ControlComponent
    API/Components/LifeBarComponent
    API/Widgets/Widget
