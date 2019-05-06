@@ -13,6 +13,20 @@ Constructeur
 
 Voici ces méthodes :
 
+get_gravity
+-----------
+
+:Description: Récupère la force de gravité
+:Retourne: <int> : Force de gravité
+:Paramètres: Rien
+
+set_gravity
+-----------
+
+:Description: Définis la force de gravité
+:Retourne: Rien
+:Paramètre: gravity <int> : Force de gravité
+
 set_callback
 ------------
 
