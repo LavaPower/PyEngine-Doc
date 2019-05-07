@@ -13,6 +13,22 @@ Constructeur
     
 Voici ses méthodes :
 
+get_control
+-----------
+
+:Description: Récupère un controle
+:Retourne: <int> : Constante correspondant à la touche
+:Paramètre: <Controls> : Controle à récupérer
+
+set_control
+-----------
+
+:Description: Définis un controle
+:Retourne: Rien
+:Paramètres: 
+    - name <Controls> : Controle à récupérer
+    - key <int> : Constante correspondant à la touche
+
 get_speed
 ---------
 
