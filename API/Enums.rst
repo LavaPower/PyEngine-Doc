@@ -13,6 +13,18 @@ ControlType
     - CLASSICJUMP : L'objet se déplace latéralement et faire un saut simple
     - DOUBLEJUMP : Comme le CLASSICJUMP mais avec un double saut
     - CLICKFOLLOW : L'ojet se déplace vers l'endroit du clique de la souris
+    - LEFTRIGHT : L'objet se déplace latéralement, sans saut
+    - UPDOWN : L'objet se déplace de bas en haut
+
+Controls
+--------
+
+:Description: Correspond aux controles utilisables dans PyEngine
+:Valeurs:
+    - UPJUMP : Direction vers le haut (sert aussi au saut)
+    - LEFT : Direction vers la gauche
+    - RIGHT : Direction vers la droite
+    - DOWN : Direction vers le bas
 
 MouseButton
 -----------
