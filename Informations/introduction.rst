@@ -3,12 +3,13 @@ Introduction
 
 PyEngine a été crée par LavaPower.
 
-Celui-ci était en train de créer un jeu vidéo avec PyGame.
-Cependant, il a remarqué que les systèmes qu'il créait
-pouvait servir à tous les jeux.
-C'est ainsi que fut crée PyEngine.
+PyEngine se basse sur PyGame pour fonctionner. Il a été fait pour être
+utilisé sur des jeux 2D de tout type : Platformer, Pong, Casse bricks...
 
-Attention : PyEngine est encore très jeune et est encore très limité.
+Vous pouvez retrouver des tutoriels, des exemples et la documentation
+directement des classes ici.
 
-Attention² : Cette documentation liste les méthodes des classes qui
-peuvent être utilisé sans problème et sans risque.
+.. note:: PyEngine est encore très jeune et est encore très limité.
+
+.. note:: Cette documentation liste les méthodes des classes qui
+    peuvent être utilisé sans problème et sans risque.
