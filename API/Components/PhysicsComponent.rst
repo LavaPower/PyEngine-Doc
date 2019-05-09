@@ -34,3 +34,6 @@ set_callback
 :Retourne: Rien
 :Paramètres:
     - function <Function> : Fonction lancé au moment du callback
+
+.. note:: Un callback est simplement une fonction lancée
+    suivant des évènements précis (Ici une collision).

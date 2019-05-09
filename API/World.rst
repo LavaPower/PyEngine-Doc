@@ -18,7 +18,17 @@ set_callback
 :Retourne: Rien
 :Paramètres:
     - callback <WorldCallbacks> : Callback à définir
-    - function <Function> : Fonction lancé au moment du callback
+    - function <Function> : Fonction lancée au moment du callback
+
+Les callsbacks peuvent demander des paramètres.
+Il faut donc les fournir dans la fonction lancée.
+
+:OUTOFWINDOW:
+    - <Entity> - Entité qui dépasse les bords
+    - <List> - position de l'entité
+
+.. note:: Un callback est simplement une fonction lancée
+    suivant des évènements précis.
 
 .. warning:: Peut retourner une exception : TypeError
 
