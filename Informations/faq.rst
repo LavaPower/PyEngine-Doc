@@ -28,8 +28,8 @@ Quels sont les platformes où PyEngine est utilisable ?
 
 Si vous pouvez utiliser PyGame et Python, vous pouvez utiliser PyEngine
 
-Je souhaite participer au développement de Sython, comment faire ?
-------------------------------------------------------------------
+Je souhaite participer au développement de PyEngine, comment faire ?
+--------------------------------------------------------------------
 
 Envoyez moi un message par Discord (LavaPower#2480) pour voir ce que
 vous pouvez faire
