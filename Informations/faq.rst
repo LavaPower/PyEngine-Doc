@@ -18,13 +18,13 @@ Mais en créant mon jeu, je devais créer des systèmes
 J'ai donc fait le choix de créer PyEngine (qui utilise PyGame lui même)
 (Et puis ça permet un bon entrainement en Python).
 
-Quels sont les dépendances de PyEngine ?
-----------------------------------------
+Quelles sont les dépendances de PyEngine ?
+------------------------------------------
 
 Si ce n'est Python, PyEngine utilise PyGame.
 
-Quels sont les plateformes où PyEngine est utilisable ?
--------------------------------------------------------
+Quelles sont les plateformes où PyEngine est utilisable ?
+---------------------------------------------------------
 
 Si vous pouvez utiliser PyGame et Python, vous pouvez utiliser PyEngine.
 
