@@ -17,4 +17,4 @@ CompatibilityError
 ------------------
 
 :Description: L'objet n'est pas compatible avec un autre 
-    objet dès mis en place.
+    objet déjà mis en place.
