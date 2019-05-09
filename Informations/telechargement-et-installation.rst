@@ -1,23 +1,19 @@
 Téléchargement et Installation
 ==============================
 
-Deux cas sont à séparer ici : 
+Dernière release (Méthode simple)
+---------------------------------
 
-- Le cas où vous voulez la dernière version stable
-- Le cas où vous voulez la version en développement
+- Avoir Python et Pip installés
+- Faire dans une console : `pip install PyEngine-2D`
+- PyEngine est téléchargé et installé
 
-Dernière release
-----------------
+Version en développement (Méthode moins simple)
+-----------------------------------------------
 
-C'est la méthode la plus simple.
+- Avoir Python et Pip installés
+- Télécharger et décompresser les fichiers du github (http://github.com/pyengine-2D/PyEngine)
+- Faire dans une console à l'endroit où sont les fichiers : 
+    `python setup.py install`.
+- PyEngine est téléchargé et installé
 
-Il suffit de faire dans une console : `pip install PyEngine-2D`
-
-PyEngine sera téléchargé et installé automatiquement.
-
-Version en développement
-------------------------
-
-Pour ce fait, vous devez récupérer les fichiers du GitHub : https://github.com/pyengine-2d/PyEngine
-
-Une fois téléchargé, pour l'installer, il suffit de faire dans une console : `python setup.py install`
