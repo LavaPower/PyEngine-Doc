@@ -6,7 +6,7 @@ Cette classe permet de faire bouger automatiquement une entité
 Constructeur
 ------------
 
-:Description: Créer l'objet MoveComponent
+:Description: Crée l'objet MoveComponent
 :Paramètres:
     - direction <list> : Direction du mouvement
     - speed <int> (5) : Vitesse du mouvement
@@ -21,12 +21,12 @@ get_speed
 
 :Description: Récupère la vitesse
 :Retourne: <int> : Vitesse du mouvement
-:Paramètres: Rien
+:Paramètre: Rien
 
 set_speed
 ---------
 
-:Description: Définis la vitesse
+:Description: Définit la vitesse
 :Retourne: Rien
 :Paramètre: speed <int> : Vitesse du mouvement
 
@@ -35,11 +35,11 @@ get_direction
 
 :Description: Récupère la direction
 :Retourne: <list> : Direction du mouvement
-:Paramètres: Rien
+:Paramètre: Rien
 
 set_direction
 -------------
 
-:Description: Définis la direction
+:Description: Définit la direction
 :Retourne: Rien
 :Paramètre: direction <list> : Direction du mouvement

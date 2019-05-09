@@ -3,10 +3,10 @@ Window
 
 Cette classe correspond à la fenêtre ouverte par votre jeu.
 
-Construteur
------------
+Constructeur
+------------
 
-:Description: Créer l'objet Window
+:Description: Crée l'objet Window
 :Paramètres:
     - width <integer> : Largeur de la fenêtre
     - height <integer> : Hauteur de la fenêtre
@@ -29,7 +29,7 @@ get_color
 
 :Description: Récupère la couleur de la fenêtre
 :Retourne: <list> : Couleur de la fenêtre
-:Paramètres: Rien
+:Paramètre: Rien
 
 set_debug
 ---------
@@ -41,9 +41,9 @@ set_debug
 get_debug
 ---------
 
-:Description: Récupère si la fenêtre est en mode debug
+:Description: Vérifie que la fenêtre est en mode debug
 :Retourne: <boolean> : Mode debug de la fenêtre
-:Paramètres: Rien
+:Paramètre: Rien
 
 set_title
 ---------
@@ -57,7 +57,7 @@ get_title
 
 :Description: Récupère le titre de la fenêtre
 :Retourne: <string> : Titre de la fenêtre
-:Paramètres: Rien
+:Paramètre: Rien
 
 add_state
 ---------
@@ -69,7 +69,7 @@ add_state
 set_current_state
 -----------------
 
-:Description: Définis la GameState actuelle
+:Description: Définit la GameState actuelle
 :Retourne: Rien
 :Paramètre: name <string> : Nom de la GameState à définir comme actuelle
 
@@ -78,7 +78,7 @@ get_current_state
 
 :Description: Récupère la GameState actuelle
 :Retourne: <GameState> : GameState actuelle
-:Paramètres: Rien
+:Paramètre: Rien
 
 get_state
 ---------
@@ -93,13 +93,13 @@ stop
 
 :Description: Arrête le jeu
 :Retourne: Rien
-:Paramètres: Rien
+:Paramètre: Rien
 
 run
 ---
 
 :Description: Lance le jeu
 :Retourne: Rien
-:Paramètres: Rien
+:Paramètre: Rien
 
 .. warning:: Peut retourner les exceptions : NoObjectError

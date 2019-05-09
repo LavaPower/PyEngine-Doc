@@ -3,10 +3,10 @@ GameState
 
 Cette classe correspond à un état précis de votre jeu
 
-Construteur
------------
+Constructeur
+------------
 
-:Description: Créer l'objet GameState
+:Description: Crée l'objet GameState
 :Paramètre: name <string> : Nom de la GameState
 
 Voici ces méthodes :
@@ -14,7 +14,7 @@ Voici ces méthodes :
 set_world
 ---------
 
-:Description: Définis le monde de la GameState
+:Description: Définit le monde de la GameState
 :Retourne: Rien
 :Paramètre: world <World> : Nouveau monde de la GameState
 

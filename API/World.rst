@@ -3,18 +3,18 @@ World
 
 Cette classe correspond au monde d'une GameState
 
-Construteur
------------
+Constructeur
+------------
 
-:Description: Créer l'objet World
-:Paramètres: Rien
+:Description: Crée l'objet World
+:Paramètre: Rien
 
 Voici ces méthodes :
 
 set_callback
 ------------
 
-:Description: Définis un Callback du monde
+:Description: Définit un Callback du monde
 :Retourne: Rien
 :Paramètres:
     - callback <WorldCallbacks> : Callback à définir
@@ -36,7 +36,7 @@ get_system
 ----------
 
 :Description: Récupère un système du monde
-:Retourne: <EntitySystem|MusicSystem|UISystem|None> : Systeme du type <classe> 
+:Retourne: <EntitySystem|MusicSystem|UISystem|None> : Système du type <classe> 
     s'il existe
 :Paramètre: <EntitySystem|MusicSystem|UISystem> : Classe du système à récupérer
 
@@ -44,6 +44,6 @@ has_system
 ----------
 
 :Description: Vérifie l'existence d'un système dans le monde
-:Retourne: <bool> : Vrai si le monde à le système. Sinon Faux
+:Retourne: <bool> : Vrai si le monde a le système. Sinon Faux
 :Paramètre: <EntitySystem|MusicSystem|UISystem> : Classe du système à récupérer
 

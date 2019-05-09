@@ -6,7 +6,7 @@ Cette classe permet de définir une vie à l'entité et, optionnellement, une ba
 Constructeur
 ------------
 
-:Description: Créer l'objet LifeBarComponent
+:Description: Crée l'objet LifeBarComponent
 :Paramètres:
     - maxlife <int> (100) : Vie maximum
     - sprites <list> (None) : Sprites de la barre de vie
@@ -17,8 +17,8 @@ Voici ces méthodes :
 create_life_sprites
 -------------------
 
-:Description: Créer les entités de la barre de vie
+:Description: Crée les entités de la barre de vie
 :Retourne: Rien
-:Paramètres: Rien
+:Paramètre: Rien
 
 .. warning:: Utilisable seulement si sprites a été défini dans le Constructeur

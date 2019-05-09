@@ -6,7 +6,7 @@ Cette classe permet de demander du texte à l'utilisateur
 Constructeur
 ------------
 
-:Description: Créer l'objet Entry
+:Description: Crée l'objet Entry
 :Paramètres:
     - position <list> : Position du widget
     - width <int> (200) : Largeur du widget
@@ -16,12 +16,12 @@ get_text
 
 :Description: Récupère le texte du widget
 :Retourne: <string> : Texte du widget
-:Paramètres: Rien
+:Paramètre: Rien
 
 set_text
 --------
 
-:Description: Définis le texte du widget
+:Description: Définit le texte du widget
 :Retourne: Rien
 :Paramètre: text <string> : Texte du widget
 
@@ -30,7 +30,7 @@ get_id
 
 :Description: Récupère l'id du widget
 :Retourne: <int> : Id du widget
-:Paramètres: Rien
+:Paramètre: Rien
 
 .. note:: L'id vaut -1 si le widget n'a pas été ajouté à un System.
 
@@ -39,18 +39,18 @@ get_system
 
 :Description: Récupère le system du widget
 :Retourne: <UISystem|None> : Système si le widget a été ajouté
-:Paramètres: Rien
+:Paramètre: Rien
 
 get_position
 ------------
 
 :Description: Récupère la position du widget
 :Retourne: <list> : Position du widget
-:Paramètres: Rien
+:Paramètre: Rien
 
 set_position
 ------------
 
-:Description: Définis la position du widget
+:Description: Définit la position du widget
 :Retourne: Rien
 :Paramètre: position <list> : Position du widget
