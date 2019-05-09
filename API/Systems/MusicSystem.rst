@@ -14,19 +14,19 @@ next_song
 
 :Description: Passe à la musique suivante
 :Retourne: Rien
-:Paramètres: Rien
+:Paramètre: Rien
 
 clear_queue
 -----------
 
 :Description: Vide la queue
 :Retourne: Rien
-:Paramètres: Rien
+:Paramètre: Rien
 
 set_loop
 --------
 
-:Description: Définis si la queue se rejoue
+:Description: Définit si la queue se rejoue
 :Retourne: Rien
 :Paramètre: loop <bool> : Vrai si la queue se rejoue. Sinon faux
 
@@ -35,7 +35,7 @@ play
 
 :Description: Lance la musique
 :Retourne: Rien
-:Paramètres: Rien
+:Paramètre: Rien
 
 .. warning:: Peut retourner une exception : NoObjectError
 
@@ -49,7 +49,7 @@ add
 set_volume
 ----------
 
-:Description: Définis le volume du système
+:Description: Définit le volume du système
 :Retourne: Rien
 :Paramètre: volume <int> : Volume du système
 
@@ -62,18 +62,18 @@ stop
 
 :Description: Arrête la musique
 :Retourne: Rien
-:Paramètres: Rien
+:Paramètre: Rien
 
 pause
 -----
 
 :Description: Met en pause la musique
 :Retourne: Rien
-:Paramètres: Rien
+:Paramètre: Rien
 
 unpause
 -------
 
 :Description: Relance la musique
 :Retourne: Rien
-:Paramètres: Rien
+:Paramètre: Rien

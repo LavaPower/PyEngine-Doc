@@ -8,7 +8,7 @@ Cette classe permet de définir un texte à l'entité
 Constructeur
 ------------
 
-:Description: Créer l'objet TextComponent
+:Description: Crée l'objet TextComponent
 :Paramètres:
     - texte <string> : Texte à afficher
     - color <list> ((255, 255, 255)) : Couleur du texte

@@ -6,7 +6,7 @@ Cette classe permet de controler l'entité
 Constructeur
 ------------
 
-:Description: Créer l'objet ControlComponent
+:Description: Crée l'objet ControlComponent
 :Paramètres:
     - controltype <ControlType> : Type de controle
     - speed <integer> (5) : Vitesse du mouvement
@@ -23,9 +23,9 @@ get_control
 set_control
 -----------
 
-:Description: Définis un controle
+:Description: Définit un controle
 :Retourne: Rien
-:Paramètres: 
+:Paramètre: 
     - name <Controls> : Controle à récupérer
     - key <int> : Constante correspondant à la touche
 
@@ -34,11 +34,11 @@ get_speed
 
 :Description: Récupère la vitesse
 :Retourne: <int> : Vitesse du mouvement
-:Paramètres: Rien
+:Paramètre: Rien
 
 set_speed
 ---------
 
-:Description: Définis la vitesse
+:Description: Définit la vitesse
 :Retourne: Rien
 :Paramètre: speed <int> : Vitesse du mouvement

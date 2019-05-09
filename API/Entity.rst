@@ -3,11 +3,11 @@ Entity
 
 Cette classe correspond à une entité votre jeu.
 
-Construteur
------------
+Constructeur
+------------
 
-:Description: Créer l'objet Entity
-:Paramètres: Rien
+:Description: Crée l'objet Entity
+:Paramètre: Rien
 
 Voici ces méthodes :
 
@@ -16,7 +16,7 @@ get_id
 
 :Description: Récupère l'id de l'entité
 :Retourne: <int> : Id de l'entité
-:Paramètres: Rien
+:Paramètre: Rien
 
 attach_entity
 -------------
@@ -30,7 +30,7 @@ add_component
 
 :Description: Ajoute un composant à l'entité
 :Retourne: <Components> : Composant ajouté
-:Paramètres: component <Components> : Composant à ajouter
+:Paramètre: component <Components> : Composant à ajouter
 
 .. note:: Components fait référence à toutes les classes étant des composants.
 

@@ -6,7 +6,7 @@ Cette classe permet de d'afficher un bouton
 Constructeur
 ------------
 
-:Description: Créer l'objet Button
+:Description: Crée l'objet Button
 :Paramètres:
     - position <list> : Position du widget
     - text <string> : Texte sur le bouton
@@ -21,7 +21,7 @@ get_label
 
 :Description: Récupère le label du bouton (le texte du bouton)
 :Retourne: <Label> : Label du bouton
-:Paramètres: Rien
+:Paramètre: Rien
 
 .. note:: Cela permet de modifier le texte (police et couleur compris) du bouton
 
@@ -33,19 +33,19 @@ update_all
 
 :Description: Met à jour les placements du boutons et de son label
 :Retourne: Rien
-:Paramètres: Rien
+:Paramètre: Rien
 
 get_size
 --------
 
 :Description: Récupère la taille du bouton
 :Retourne: <list> : Taille du bouton
-:Paramètres: Rien
+:Paramètre: Rien
 
 set_size
 --------
 
-:Description: Définis la taille du bouton
+:Description: Définit la taille du bouton
 :Retourne: Rien
 :Paramètre: <list> : Taille du bouton
 
@@ -59,7 +59,7 @@ get_command
 set_command
 -----------
 
-:Description: Définis la fonction du widget
+:Description: Définit la fonction du widget
 :Retourne: Rien
 :Paramètre: <Function> : fonction du widget
 
@@ -68,7 +68,7 @@ get_id
 
 :Description: Récupère l'id du widget
 :Retourne: <int> : Id du widget
-:Paramètres: Rien
+:Paramètre: Rien
 
 .. note:: L'id vaut -1 si le widget n'a pas été ajouté à un System.
 
@@ -77,18 +77,18 @@ get_system
 
 :Description: Récupère le system du widget
 :Retourne: <UISystem|None> : Système si le widget a été ajouté
-:Paramètres: Rien
+:Paramètre: Rien
 
 get_position
 ------------
 
 :Description: Récupère la position du widget
 :Retourne: <list> : Position du widget
-:Paramètres: Rien
+:Paramètre: Rien
 
 set_position
 ------------
 
-:Description: Définis la position du widget
+:Description: Définit la position du widget
 :Retourne: Rien
 :Paramètre: <list> : Position du widget
