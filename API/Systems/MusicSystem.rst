@@ -3,7 +3,7 @@ MusicSystem
 
 Cette classe correspond au système de musique d'un monde
 
-.. warning:: La gestion des .mp3 est un peu buggué. 
+.. warning:: La gestion des .mp3 est un peu bugguée. 
     Si votre mp3 ne fonctionne pas correctement, 
     utilisez une autre extension (exemple : .wav)
 

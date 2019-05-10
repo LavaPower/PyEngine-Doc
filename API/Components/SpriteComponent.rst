@@ -8,7 +8,7 @@ Cette classe permet de définir un sprite à l'entité
 Constructeur
 ------------
 
-:Description: Créer l'objet SpriteComponent
+:Description: Crée l'objet SpriteComponent
 :Paramètres:
     - image <string> : Chemin vers le sprite
     - scale <integer> (1) : "Zoom" sur le sprite

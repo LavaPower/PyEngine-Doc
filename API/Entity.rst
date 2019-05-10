@@ -1,7 +1,7 @@
 Entity
 ======
 
-Cette classe correspond à une entité votre jeu.
+Cette classe correspond à une entité de votre jeu.
 
 Constructeur
 ------------
@@ -21,9 +21,9 @@ get_id
 attach_entity
 -------------
 
-:Description: Attache une entité à notre entité
+:Description: Attache une entité à l'entité
 :Retourne: Rien
-:Paramètre: entity <Entity> : Entity à attacher
+:Paramètre: entity <Entity> : Entité à attacher
 
 add_component
 -------------
@@ -39,7 +39,7 @@ add_component
 has_component
 -------------
 
-:Description: Vérifie l'existance d'un composant dans l'entité
+:Description: Vérifie l'existence d'un composant dans l'entité
 :Retourne: <bool> : Vrai si l'entité a le composant. Sinon Faux
 :Paramètre: component <Components> : Composant à ajouter
 

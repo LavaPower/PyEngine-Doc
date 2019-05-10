@@ -12,7 +12,7 @@ Constructeur
     - offset <list> ([0, 0]) : Offset de l'entité
 
 .. note:: L'offset n'est utile que dans le cas d'entité 
-    attaché à une autre entité.
+    attachée à une autre entité.
 
 Voici ses méthodes :
 
