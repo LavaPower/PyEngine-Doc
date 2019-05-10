@@ -1,7 +1,7 @@
 Label
 =====
 
-Cette classe permet de d'afficher un texte
+Cette classe permet d'afficher un texte
 
 Constructeur
 ------------
@@ -13,7 +13,7 @@ Constructeur
     - color <list> ((255, 255, 255)) : Couleur du texte
     - font <list> (["arial", 15, False, False]) : Police du texte
 
-.. note:: La police est composé comme ceci : [Nom, Taille, Gras, Italique].
+.. note:: La police est composée comme ceci : [Nom, Taille, Gras, Italique].
     Vous pouvez omettre des éléments mais seulement dans l'ordre.
     
     Exemple : Vous pouvez écrire [Nom, Taille] mais pas [Nom, Gras, Italique]
@@ -53,7 +53,7 @@ set_font
 :Retourne: Rien
 :Paramètre: police <list> : Police
 
-.. note:: La police est composé comme ceci : [Nom, Taille, Gras, Italique].
+.. note:: La police est composée comme ceci : [Nom, Taille, Gras, Italique].
     Vous pouvez omettre des éléments mais seulement dans l'ordre.
     
     Exemple : Vous pouvez écrire [Nom, Taille] mais pas [Nom, Gras, Italique]
@@ -65,7 +65,7 @@ get_font
 :Retourne: <list> : Police
 :Paramètre: Rien
 
-.. note:: La police est composé comme ceci : [Nom, Taille, Gras, Italique]
+.. note:: La police est composée comme ceci : [Nom, Taille, Gras, Italique]
 
 get_id
 ------
@@ -79,8 +79,9 @@ get_id
 get_system
 ----------
 
-:Description: Récupère le system du widget
-:Retourne: <UISystem|None> : Système si le widget a été ajouté
+:Description: Récupère le système du widget
+:Retourne:
+    <UISystem|None> : Système du widget si il a été ajouté à un UISystem
 :Paramètre: Rien
 
 get_position

@@ -33,7 +33,7 @@ set_callback
 :Description: Définit le callback de la collision
 :Retourne: Rien
 :Paramètres:
-    - function <Function> : Fonction lancé au moment du callback
+    - function <Function> : Fonction lancée au moment du callback
 
 .. note:: Un callback est simplement une fonction lancée
     suivant des évènements précis (Ici une collision).

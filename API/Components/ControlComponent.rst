@@ -1,14 +1,14 @@
 ControlComponent
 ================
 
-Cette classe permet de controler l'entité
+Cette classe permet de contrôler l'entité
 
 Constructeur
 ------------
 
 :Description: Crée l'objet ControlComponent
 :Paramètres:
-    - controltype <ControlType> : Type de controle
+    - controltype <ControlType> : Type de contrôle
     - speed <integer> (5) : Vitesse du mouvement
     
 Voici ses méthodes :
@@ -16,17 +16,17 @@ Voici ses méthodes :
 get_control
 -----------
 
-:Description: Récupère un controle
+:Description: Récupère un contrôle
 :Retourne: <int> : Constante correspondant à la touche
-:Paramètre: <Controls> : Controle à récupérer
+:Paramètre: <Controls> : Contrôle à récupérer
 
 set_control
 -----------
 
-:Description: Définit un controle
+:Description: Définit un contrôle
 :Retourne: Rien
 :Paramètre: 
-    - name <Controls> : Controle à récupérer
+    - name <Controls> : Contrôle à récupérer
     - key <int> : Constante correspondant à la touche
 
 get_speed

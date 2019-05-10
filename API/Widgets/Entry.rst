@@ -37,8 +37,9 @@ get_id
 get_system
 ----------
 
-:Description: Récupère le system du widget
-:Retourne: <UISystem|None> : Système si le widget a été ajouté
+:Description: Récupère le système du widget
+:Retourne:
+    <UISystem|None> : Système du widget si il a été ajouté à un UISystem
 :Paramètre: Rien
 
 get_position

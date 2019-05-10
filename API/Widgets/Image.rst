@@ -1,7 +1,7 @@
 Image
 =====
 
-Cette classe permet de d'afficher une image
+Cette classe permet d'afficher une image
 
 Constructeur
 ------------
@@ -12,7 +12,7 @@ Constructeur
     - image <string> : Chemin vers l'image
     - size <list> (None) : Taille de l'image
 
-.. note:: Si size vaut None, l'image ne sera pas redimentionnée.
+.. note:: Si size vaut None, l'image ne sera pas redimensionnée.
 
 get_image
 ---------
@@ -54,8 +54,9 @@ get_id
 get_system
 ----------
 
-:Description: Récupère le system du widget
-:Retourne: <UISystem|None> : Système si le widget a été ajouté
+:Description: Récupère le système du widget
+:Retourne:
+    <UISystem|None> : Système du widget si il a été ajouté à un UISystem
 :Paramètre: Rien
 
 get_position

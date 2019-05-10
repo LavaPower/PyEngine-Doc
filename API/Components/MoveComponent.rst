@@ -11,8 +11,8 @@ Constructeur
     - direction <list> : Direction du mouvement
     - speed <int> (5) : Vitesse du mouvement
 
-.. note:: direction est un liste où le premier nombre correspond au mouvement en x et le second en y.
-    Cet liste ne doit contenir que des 1, -1 et 0. Exemple : (0, 1) créra un mouvement vers le bas
+.. note:: direction est une liste où le premier nombre correspond au mouvement en x et le second en y.
+    Cette liste ne doit contenir que des 1, -1 et 0. Exemple : (0, 1) créera un mouvement vers le bas
 
 Voici ses méthodes :
 
