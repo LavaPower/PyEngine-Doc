@@ -53,4 +53,6 @@ Sommaire :
    API/Widgets/Widget
    API/Widgets/Label
    API/Widgets/Image
+   API/Widgets/Button
+   API/Widgets/Entry
 
