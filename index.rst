@@ -26,7 +26,7 @@ Sommaire :
    :caption: Tutoriels
    :name: sec-tuto
 
-   Tutoriels/Coming-Soon
+   Tutoriels/HelloWorld
 
 .. toctree::
    :maxdepth: 1
