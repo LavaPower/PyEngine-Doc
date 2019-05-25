@@ -10,26 +10,21 @@ Constructeur
 :Paramètres:
     - position <list> : Position du widget
     - texte <string> : Texte à afficher
-    - color <list> ((255, 255, 255)) : Couleur du texte
-    - font <list> (["arial", 15, False, False]) : Police du texte
-
-.. note:: La police est composée comme ceci : [Nom, Taille, Gras, Italique].
-    Vous pouvez omettre des éléments mais seulement dans l'ordre.
-    
-    Exemple : Vous pouvez écrire [Nom, Taille] mais pas [Nom, Gras, Italique]
+    - color <Color> (Color()) : Couleur du texte
+    - font <Font> (Font()) : Police du texte
 
 set_color
 ---------
 
 :Description: Définit la couleur du texte
 :Retourne: Rien
-:Paramètre: color <list> : Couleur (RGB ou RGBA)
+:Paramètre: color <Color> : Couleur
 
 get_color
 ---------
 
 :Description: Récupère la couleur du texte
-:Retourne: <list> : Couleur (RGB ou RGBA)
+:Retourne: <Color> : Couleur
 :Paramètre: Rien
 
 set_text
@@ -51,21 +46,14 @@ set_font
 
 :Description: Définit la police
 :Retourne: Rien
-:Paramètre: police <list> : Police
-
-.. note:: La police est composée comme ceci : [Nom, Taille, Gras, Italique].
-    Vous pouvez omettre des éléments mais seulement dans l'ordre.
-    
-    Exemple : Vous pouvez écrire [Nom, Taille] mais pas [Nom, Gras, Italique]
+:Paramètre: police <Font> : Police
 
 get_font
 --------
 
 :Description: Récupère la police
-:Retourne: <list> : Police
+:Retourne: <Font> : Police
 :Paramètre: Rien
-
-.. note:: La police est composée comme ceci : [Nom, Taille, Gras, Italique]
 
 get_id
 ------
@@ -97,3 +85,24 @@ set_position
 :Description: Définit la position du widget
 :Retourne: Rien
 :Paramètre: <list> : Position du widget
+
+is_show
+-------
+
+:Description: Savoir si le widget est affiché
+:Retourne: <bool> : Vrai si le widget est affiché
+:Paramètre: Rien
+
+show
+----
+
+:Description: Affiche un widget
+:Retourne: Rien
+:Paramètre: Rien
+
+hide
+----
+
+:Description: Cache un widget
+:Retourne: Rien
+:Paramètre: Rien

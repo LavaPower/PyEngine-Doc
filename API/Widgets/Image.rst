@@ -72,3 +72,24 @@ set_position
 :Description: Définit la position du widget
 :Retourne: Rien
 :Paramètre: <list> : Position du widget
+
+is_show
+-------
+
+:Description: Savoir si le widget est affiché
+:Retourne: <bool> : Vrai si le widget est affiché
+:Paramètre: Rien
+
+show
+----
+
+:Description: Affiche un widget
+:Retourne: Rien
+:Paramètre: Rien
+
+hide
+----
+
+:Description: Cache un widget
+:Retourne: Rien
+:Paramètre: Rien

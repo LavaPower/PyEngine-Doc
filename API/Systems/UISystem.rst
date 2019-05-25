@@ -20,3 +20,25 @@ get_widget
 :Description: Récupère un widget au système
 :Retourne: <Widgets|None> : Widget s'il existe ou rien
 :Paramètre: widget <Widgets> : Classe du widget à récupérer
+
+.. note:: Widgets fait référence à toutes les classes étant des widgets.
+
+has_widget
+----------
+
+:Description: Savoir si un widget est enregistré
+:Retourne: <bool> : Vrai si le Widget existe
+:Paramètre: widget <Widgets> : Widget
+
+.. note:: Widgets fait référence à toutes les classes étant des widgets.
+
+remove_widget
+-------------
+
+:Description: Supprime l'enregistrement d'un widget
+:Retourne: Rien
+:Paramètre: widget <Widgets> : Widget à supprimer
+
+.. note:: Widgets fait référence à toutes les classes étant des widgets.
+
+.. note:: Peut retourner une ValueError

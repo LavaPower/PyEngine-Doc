@@ -11,16 +11,41 @@ Constructeur
 
 Voici ces méthodes :
 
-set_world
----------
+set_callback
+------------
 
-:Description: Définit le monde de la GameState
+:Description: Définit un Callback
 :Retourne: Rien
-:Paramètre: world <World> : Nouveau monde de la GameState
+:Paramètres:
+    - callback <StateCallbacks> : Callback à définir
+    - function <Function> : Fonction lancée au moment du callback
 
-get_world
----------
+Les callsbacks peuvent demander des paramètres.
+Il faut donc les fournir dans la fonction lancée.
 
-:Description: Récupère le monde de la GameState
-:Retourne: <World> : Monde de la GameState
-:Paramètres: Rien
+:OUTOFWINDOW:
+    - <Entity> - Entité qui dépasse les bords
+    - <List> - position de l'entité
+
+.. note:: Un callback est simplement une fonction lancée
+    suivant des évènements précis.
+
+.. warning:: Peut retourner une exception : TypeError
+
+get_system
+----------
+
+:Description: Récupère un système du monde
+:Retourne: <Systems|None> : Système du type <classe> s'il existe
+:Paramètre: <Systems> : Classe du système à récupérer
+
+.. note:: Systems fait référence aux systèmes (EntitySystem, UISystem, MusicSystem et MusicSystem)
+
+has_system
+----------
+
+:Description: Vérifie l'existence d'un système dans le monde
+:Retourne: <bool> : Vrai si le monde a le système. Sinon Faux
+:Paramètre: <Systems> : Classe du système à récupérer
+
+.. note:: Systems fait référence aux systèmes (EntitySystem, UISystem, MusicSystem et MusicSystem)

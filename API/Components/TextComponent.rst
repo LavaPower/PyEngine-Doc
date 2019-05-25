@@ -11,14 +11,37 @@ Constructeur
 :Description: Crée l'objet TextComponent
 :Paramètres:
     - texte <string> : Texte à afficher
-    - color <list> ((255, 255, 255)) : Couleur du texte
-    - font <list> (["arial", 15, False, False]) : Police du texte
-
-.. note:: La police est composée comme ceci : [Nom, Taille, Gras, Italique].
-    Vous pouvez omettre des éléments mais seulement dans l'ordre.
-    
-    Exemple : Vous pouvez écrire [Nom, Taille] mais pas [Nom, Gras, Italique]
+    - color <Color> (Color()) : Couleur du texte
+    - font <Font> (Font()) : Police du texte
 
 .. warning:: Peut retourner une exception : CompatibilityError
 
-.. note:: Pas de méthode utilisable avec ce composant
+Voici ses méthodes :
+
+set_color
+---------
+
+:Description: Définit la couleur du texte
+:Retourne: Rien
+:Paramètre: color <Color> : Couleur
+
+get_color
+---------
+
+:Description: Récupère la couleur du texte
+:Retourne: <Color> : Couleur
+:Paramètre: Rien
+
+set_font
+--------
+
+:Description: Définit la police
+:Retourne: Rien
+:Paramètre: police <Font> : Police
+
+get_font
+--------
+
+:Description: Récupère la police
+:Retourne: <Font> : Police
+:Paramètre: Rien

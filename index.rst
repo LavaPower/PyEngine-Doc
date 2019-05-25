@@ -38,11 +38,11 @@ Sommaire :
 
    API/Window
    API/GameState
-   API/World
    API/Entity
    API/Systems/MusicSystem
    API/Systems/UISystem
    API/Systems/EntitySystem
+   API/Systems/SoundSystem
    API/Components/PositionComponent
    API/Components/SpriteComponent
    API/Components/TextComponent
@@ -55,4 +55,6 @@ Sommaire :
    API/Widgets/Image
    API/Widgets/Button
    API/Widgets/Entry
+   API/Utils/Color
+   API/Utils/Font
 
