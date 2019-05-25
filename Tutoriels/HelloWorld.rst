@@ -83,7 +83,7 @@ En organisant bien votre code, vous devriez avoir quelque chose de ce style :
 
 Lancez le programme et vous devriez avoir ceci :
 
-.. image:: HelloWorld1.png
+.. image:: HelloWorld1.PNG
 
 Création du texte
 -----------------
@@ -132,4 +132,4 @@ Ce qui nous donne au final :
 
 Avec comme résultat :
 
-.. image:: HelloWorld2.png
+.. image:: HelloWorld2.PNG
