@@ -15,7 +15,7 @@ Constructeur
 set
 ---
 
-:Description: Définis la couleur via une autre couleur
+:Description: Définit la couleur via une autre couleur
 :Retourne: Rien
 :Paramètre: color <Color> : Couleur
 
@@ -32,7 +32,7 @@ clone
 lighter
 -------
 
-:Description: Eclaicit la couleur
+:Description: Eclaircit la couleur
 :Retourne: <color> : Nouvelle Couleur
 :Paramètre: Rien
 

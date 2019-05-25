@@ -15,7 +15,7 @@ play
 set_volume
 ----------
 
-:Description: Définis le volume
+:Description: Définit le volume
 :Retourne: Rien
 :Paramètre: volume <int> : Volume (entre 0 et 100)
 
@@ -29,13 +29,13 @@ get_volume
 get_number_sound
 ----------------
 
-:Description: Récupère le nombre de sons simultanés possible
-:Retourne: <int> : Nombre de sons simultanés possible
+:Description: Récupère le nombre de sons simultanés possibles
+:Retourne: <int> : Nombre de sons simultanés possibles
 :Paramètre: Rien
 
 set_number_sound
 ----------------
 
-:Description: Définis le nombre de sons simultanés
+:Description: Définit le nombre de sons simultanés possibles
 :Retourne: Rien
-:Paramètre: nb <int> : Nombre de sons simultanés possible
+:Paramètre: nb <int> : Nombre de sons simultanés possibles

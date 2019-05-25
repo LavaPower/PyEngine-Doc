@@ -1,7 +1,7 @@
 Font
 ====
 
-Cette classe permet de symboliser une couleur
+Cette classe permet de symboliser une police d'écriture
 
 Constructeur
 ------------
@@ -46,13 +46,13 @@ set_bold
 
 :Description: Définit si la police est en gras
 :Retourne: Rien
-:Paramètre: bold <bool> : Vrai si c'est en gras
+:Paramètre: bold <bool> : Vrai si la police est en gras
 
 is_bold
 -------
 
 :Description: Savoir si la police est en gras
-:Retourne: <bool> : Vrai si c'est en gras
+:Retourne: <bool> : Vrai si la police est en gras
 :Paramètre: Rien
 
 set_italic
@@ -60,11 +60,11 @@ set_italic
 
 :Description: Définit si la police est en italique
 :Retourne: Rien
-:Paramètre: italic <bool> : Vrai si c'est en italique
+:Paramètre: italic <bool> : Vrai si la police est en italique
 
 is_italic
 ---------
 
 :Description: Savoir si la police est en italique
-:Retourne: <bool> : Vrai si c'est en italique
+:Retourne: <bool> : Vrai si la police est en italique
 :Paramètre: Rien

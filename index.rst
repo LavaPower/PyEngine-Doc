@@ -49,7 +49,7 @@ Sommaire :
    API/Components/PhysicsComponent
    API/Components/MoveComponent
    API/Components/ControlComponent
-   API/Components/LifeBarComponent
+   API/Components/LifeComponent
    API/Widgets/Widget
    API/Widgets/Label
    API/Widgets/Image

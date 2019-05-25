@@ -1,5 +1,5 @@
-LifeBarComponent
-================
+LifeComponent
+=============
 
 Cette classe permet de définir une vie à l'entité.
 
@@ -7,10 +7,9 @@ Constructeur
 ------------
 
 :Description: Crée l'objet LifeBarComponent
-:Paramètres:
-    - maxlife <int> (100) : Vie maximum
+:Paramètre: maxlife <int> (100) : Vie maximum
 
-Voici ces méthodes :
+Voici ses méthodes :
 
 get_life
 --------

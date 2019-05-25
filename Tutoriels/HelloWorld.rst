@@ -3,7 +3,7 @@ Hello World
 
 Dans ce premier tutoriel, nous allons créer un programme très connu : le fameux Hello World.
 
-Grace à ce tutoriel, vous saurez créer une fenêtre graphique 
+Grâce à ce tutoriel, vous saurez créer une fenêtre graphique 
 avec un état de jeu. De plus, vous saurez utiliser le widget Label 
 venant du système d'UI.
 
@@ -40,7 +40,7 @@ Ceci s'explique par le fait que vous essayez de lancer la
 boucle d'une fenêtre qui n'a pas de GameState.
 
 .. note:: Une GameState est un état de votre jeu/programme. Par exemple, dans un flappy bird, il y a plusieurs états : le moment
-    où il y a le menu, le moment où on jeu, le moment de fin de jeu...
+    où il y a le menu, le moment où on joue, le moment de fin de jeu...
 
 Création de la GameState
 ------------------------
