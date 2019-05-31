@@ -32,6 +32,20 @@ get_color
 :Retourne: <Color> : Couleur
 :Paramètre: Rien
 
+set_text
+--------
+
+:Description: Définit le texte
+:Retourne: Rien
+:Paramètre: text <string> : Texte
+
+get_text
+--------
+
+:Description: Récupère le texte
+:Retourne: <string> : Texte
+:Paramètre: Rien
+
 set_font
 --------
 

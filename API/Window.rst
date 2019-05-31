@@ -10,10 +10,11 @@ Constructeur
 :Paramètres:
     - width <integer> : Largeur de la fenêtre
     - height <integer> : Hauteur de la fenêtre
-    - color <list> (None) : Couleur de fond
+    - color <Color> (Color()) : Couleur de fond
+    - icon <string> (None) : Chemin vers l'icon de la fenêtre
     - debug <boolean> (False) : Mode debug
 
-.. note:: Si color est égal à None, color vaut (0, 0, 0) (soit noir)
+.. note:: Si l'icon vaut "None" la fenêtre aura l'icon de PyGame
 
 Voici ces méthodes :
 
@@ -22,13 +23,13 @@ set_color
 
 :Description: Change la couleur de la fenêtre
 :Retourne: Rien
-:Paramètre: color <list> : Couleur de la fenêtre
+:Paramètre: color <Color> : Couleur de la fenêtre
 
 get_color
 ---------
 
 :Description: Récupère la couleur de la fenêtre
-:Retourne: <list> : Couleur de la fenêtre
+:Retourne: <Color> : Couleur de la fenêtre
 :Paramètre: Rien
 
 set_debug
