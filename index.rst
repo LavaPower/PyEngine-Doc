@@ -26,6 +26,7 @@ Sommaire :
    :caption: Tutoriels
    :name: sec-tuto
 
+   Tutoriels/Theorie
    Tutoriels/HelloWorld
 
 .. toctree::
