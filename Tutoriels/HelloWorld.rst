@@ -1,7 +1,7 @@
 Hello World
 ===========
 
-Dans ce premier tutoriel, nous allons créer un programme très connu : le fameux Hello World.
+Dans ce tutoriel, nous allons créer un programme très connu : le fameux Hello World.
 
 Grâce à ce tutoriel, vous saurez créer une fenêtre graphique 
 avec un état de jeu. De plus, vous saurez utiliser le widget Label 
@@ -12,20 +12,21 @@ Création de la fenêtre
 
 La première étape est de créer la fenêtre graphique. Ici on va créer une fenêtre de 500 par 300 pixels avec un fond blanc.
 
-Tout d'abord, il faut importer la classe de la fenêtre via :
+Tout d'abord, il faut importer la classe de la fenêtre ainsi que de quoi utiliser les couleurs via :
 
 .. code-block:: python
 
     from pyengine import Window # Window étant la classe de notre fenêtre.
+    from pyengine.utils import Colors
 
 Ensuite, il faut l'initialiser :
 
 .. code-block:: python
 
-    fenetre = Window(500, 300, (255, 255, 255))
+    fenetre = Window(500, 300, Colors.WHITE.value)
     # 500 : Largeur
     # 300 : Longueur
-    # (255, 255, 255) : Couleur blanche
+    # Colors.WHITE.value : Couleur blanche
 
 Si vous lancez ce code, vous verrez la fenêtre se lancer puis se fermer directement.
 
@@ -50,8 +51,9 @@ Actuellement vous avez ceci :
 .. code-block:: python
 
     from pyengine import Window
+    from pyengine.utils import Colors
 
-    fenetre = Window(500, 300, (255, 255, 255))
+    fenetre = Window(500, 300, Colors.WHITE.value)
     fenetre.run()
 
 Pour créer votre GameState, il va falloir importer puis utiliser sa classe :
@@ -74,8 +76,9 @@ En organisant bien votre code, vous devriez avoir quelque chose de ce style :
 .. code-block:: python
 
     from pyengine import Window, GameState
+    from pyengine.utils import Colors
 
-    fenetre = Window(500, 300, (255, 255, 255))
+    fenetre = Window(500, 300, Colors.WHITE.value)
     state = GameState("HelloWorld")
     
     fenetre.add_state(state)
@@ -83,7 +86,7 @@ En organisant bien votre code, vous devriez avoir quelque chose de ce style :
 
 Lancez le programme et vous devriez avoir ceci :
 
-.. image:: HelloWorld1.PNG
+.. image:: images/HelloWorld1.PNG
 
 Création du texte
 -----------------
@@ -96,7 +99,7 @@ Pour cela, nous allons utiliser le monde de notre GameState afin de récupérer 
 
     from pyengine.Systems import UISystem
 
-    uisystem = state.get_world().get_system(UISystem)
+    uisystem = state.get_system(UISystem)
 
 Ensuite, nous devons créer notre widget et l'ajouter à notre système :
 
@@ -104,10 +107,10 @@ Ensuite, nous devons créer notre widget et l'ajouter à notre système :
 
     from pyengine.Widgets import Label
 
-    hello = Label([0, 0], "Hello World !", (0, 0, 0))
+    hello = Label([0, 0], "Hello World !", Colors.BLACK.value)
     # [0, 0] : Position x, y
     # "Hello World !" : Texte
-    # (0, 0, 0) : Couleur noire
+    # Colors.BLACK.value : Couleur noire
     uisystem.add_widget(hello)
 
 Ce qui nous donne au final :
@@ -117,19 +120,20 @@ Ce qui nous donne au final :
     from pyengine import Window, GameState
     from pyengine.Systems import UISystem
     from pyengine.Widgets import Label
+    from pyengine.utils import Colors
 
-    fenetre = Window(500, 300, (255, 255, 255))
+    fenetre = Window(500, 300, Colors.WHITE.value)
     state = GameState("HelloWorld")
 
     fenetre.add_state(state)
 
-    uisystem = state.get_world().get_system(UISystem)
+    uisystem = state.get_system(UISystem)
 
-    hello = Label([0, 0], "Hello World !", (0, 0, 0))
+    hello = Label([0, 0], "Hello World !", Colors.BLACK.value)
     uisystem.add_widget(hello)
 
     fenetre.run()
 
 Avec comme résultat :
 
-.. image:: HelloWorld2.PNG
+.. image:: images/HelloWorld2.PNG
