@@ -11,83 +11,45 @@ Constructeur
     - width <integer> : Largeur de la fenêtre
     - height <integer> : Hauteur de la fenêtre
     - color <Color> (Color()) : Couleur de fond
+    - title <string> ("PyEngine") : Titre de la fenêtre
     - icon <string> (None) : Chemin vers l'icon de la fenêtre
     - debug <boolean> (False) : Mode debug
 
 .. note:: Si l'icon vaut "None" la fenêtre aura l'icon de PyGame
 
-Voici ces méthodes :
+Voici ses attributs :
 
-set_color
----------
+title
+-----
 
-:Description: Change la couleur de la fenêtre
-:Retourne: Rien
-:Paramètre: color <Color> : Couleur de la fenêtre
+:Description: Titre de la fenêtre
+:Type: string
 
-get_color
----------
+color
+-----
 
-:Description: Récupère la couleur de la fenêtre
-:Retourne: <Color> : Couleur de la fenêtre
-:Paramètre: Rien
+:Description: Couleur de fond de la fenêtre
+:Type: Color
 
-set_debug
----------
+size
+----
 
-:Description: Change si la fenêtre est en mode debug
-:Retourne: Rien
-:Paramètre: debug <boolean> : Mode debug de la fenêtre
+:Description: Taille de la fenêtre
+:Type: Tuple[int, int]
 
-get_debug
----------
+debug
+-----
 
-:Description: Vérifie que la fenêtre est en mode debug
-:Retourne: <boolean> : Mode debug de la fenêtre
-:Paramètre: Rien
+:Description: Mode débug
+:Type: boolean
 
-set_title
----------
+world
+-----
 
-:Description: Change le titre de la fenêtre
-:Retourne: Rien
-:Paramètre: title <string> : Nouveau titre de la fenêtre
+:Description: Monde de la fenêtre
+:Type: World
 
-get_title
----------
-
-:Description: Récupère le titre de la fenêtre
-:Retourne: <string> : Titre de la fenêtre
-:Paramètre: Rien
-
-add_state
----------
-
-:Description: Ajoute un GameState à la fenêtre
-:Retourne: Rien
-:Paramètre: state <GameState> : GameState à ajouter
-
-set_current_state
------------------
-
-:Description: Définit la GameState actuelle
-:Retourne: Rien
-:Paramètre: name <string> : Nom de la GameState à définir comme actuelle
-
-get_current_state
------------------
-
-:Description: Récupère la GameState actuelle
-:Retourne: <GameState> : GameState actuelle
-:Paramètre: Rien
-
-get_state
----------
-
-:Description: Récupère une GameState à partir de son nom
-:Retourne: <GameState|None> : GameState dont le nom est <name> 
-    ou Rien si elle n'existe pas.
-:Paramètre: name <string> : Nom de la GameState à récupérer
+Voici ses méthodes :
 
 stop
 ----

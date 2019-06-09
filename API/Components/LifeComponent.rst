@@ -6,28 +6,31 @@ Cette classe permet de définir une vie à l'entité.
 Constructeur
 ------------
 
-:Description: Crée l'objet LifeBarComponent
+:Description: Crée l'objet LifeComponent
 :Paramètre: maxlife <int> (100) : Vie maximum
 
-Voici ses méthodes :
+Voici ses attributs :
 
-get_life
---------
+life
+----
 
-:Description: Récupère la vie actuelle
-:Retourne: <int> : Vie actuelle
-:Paramètre: Rien
+:Description: Vie actuelle
+:Type: int
 
-get_maxlife
------------
+.. note:: life est compris entre 0 et maxlife.
+    Si la valeur est inférieur à 0 alors life = 0.
+    Si la valeur est supérieur à maxlife alors life = maxlife.
 
-:Description: Récupère la vie maximum
-:Retourne: <int> : Vie maximum
-:Paramètre: Rien
+maxlife
+-------
 
-update_life
------------
+:Description: Vie maximum
+:Type: int
 
-:Description: Met à jour la vie actuelle
-:Retourne: Rien
-:Paramètre: life <int> : Nouvelle vie actuelle
+entity
+------
+
+:Description: Entité lié au composant
+:Type: entity
+
+.. note:: L'entité se définit elle même. Elle ne doit pas être modifiée

@@ -16,34 +16,40 @@ Constructeur
 
 .. warning:: Peut retourner une exception : CompatibilityError
 
-Voici ses méthodes :
+Voici ses attibuts :
 
-set_scale
----------
+scale
+-----
 
-:Description: Change le "zoom" du sprite
-:Retourne: Rien
-:Paramètre: scale <integer> : "Zoom" du sprite
+:Description: Scale du composant
+:Type: int
 
-set_size
+size
+----
+
+:Description: Taille du sprite
+:Type: Tuple[int, int] ou Vec2
+
+.. note:: Size utilise un Vec2 pour se définir mais retourne un Tuple
+
+rotation
 --------
 
-:Description: Change la taille du sprite
-:Retourne: Rien
-:Paramètre: size <list> : taille du sprite
+:Description: Rotation du sprite
+:Type: int
 
-.. note:: Réinitialise la scale du sprite
+sprite
+------
 
-set_rotation
-------------
+:Description: Chemin vers le sprite
+:Type: string
 
-:Description: Change la rotation du sprite
-:Retourne: Rien
-:Paramètre: rotation <integer> : Rotation du sprite
+entity
+------
 
-set_sprite
-----------
+:Description: Entité lié au composant
+:Type: entity
 
-:Description: Change le sprite
-:Retourne: Rien
-:Paramètre: sprite <string> : Chemin vers le sprite
+.. note:: L'entité se définit elle même. Elle ne doit pas être modifiée
+
+

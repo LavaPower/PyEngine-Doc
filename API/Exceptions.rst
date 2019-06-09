@@ -8,13 +8,7 @@ NoObjectError
 
 :Description: L'objet n'existe pas.
 
-WrongObjectError
-----------------
-
-:Description: L'objet ne peut pas être utilisé à cet endroit.
-
 CompatibilityError
 ------------------
 
-:Description: L'objet n'est pas compatible avec un autre 
-    objet déjà mis en place.
+:Description: L'objet est incompatible avec un autre objet.

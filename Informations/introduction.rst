@@ -10,5 +10,5 @@ Vous pouvez retrouver des tutoriels, des exemples et la documentation des diffé
 
 .. note:: PyEngine est encore très jeune et encore très limité.
 
-.. note:: Cette documentation liste les méthodes des classes qui
+.. note:: Cette documentation liste les méthodes et les attributs des classes qui
     peuvent être utilisées sans problème et sans risque.

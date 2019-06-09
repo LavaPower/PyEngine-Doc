@@ -11,29 +11,26 @@ Constructeur
     - affectbygravity <bool> (True) : Affecté par la gravité ou non
     - gravity_force <int> (5) : Puissance de la gravité
 
-Voici ces méthodes :
+Voici ses attributs :
 
-get_gravity
------------
+gravity
+-------
 
-:Description: Récupère la force de gravité
-:Retourne: <int> : Force de gravité
-:Paramètre: Rien
+:Description: Force de la gravité appliqué
+:Type: int
 
-set_gravity
------------
+callback
+--------
 
-:Description: Définit la force de gravité
-:Retourne: Rien
-:Paramètre: gravity <int> : Force de gravité
+:Description: Fonction a appelé lors d'une collision
+:Type: Function
 
-set_callback
-------------
+.. note:: La fonction doit avec deux arguments : l'objet avec lequel il a eu collision et la cause
 
-:Description: Définit le callback de la collision
-:Retourne: Rien
-:Paramètres:
-    - function <Function> : Fonction lancée au moment du callback
+entity
+------
 
-.. note:: Un callback est simplement une fonction lancée
-    suivant des évènements précis (Ici une collision).
+:Description: Entité lié au composant
+:Type: entity
+
+.. note:: L'entité se définit elle même. Elle ne doit pas être modifiée

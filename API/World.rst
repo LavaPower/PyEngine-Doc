@@ -1,15 +1,23 @@
-GameState
-=========
+World
+=====
 
-Cette classe correspond à un état précis de votre jeu
+Cette classe correspond à un monde de votre jeu
 
 Constructeur
 ------------
 
-:Description: Crée l'objet GameState
-:Paramètre: name <string> : Nom de la GameState
+:Description: Crée l'objet Monde
+:Paramètre: window <Window> : Fenêtre liée au monde
 
-Voici ces méthodes :
+Voici ses attributs :
+
+window
+------
+
+:Description: Fenêtre liée au monde
+:Type: Window
+
+Voici ses méthodes :
 
 set_callback
 ------------
@@ -17,7 +25,7 @@ set_callback
 :Description: Définit un Callback
 :Retourne: Rien
 :Paramètres:
-    - callback <StateCallbacks> : Callback à définir
+    - callback <WorldCallbacks> : Callback à définir
     - function <Function> : Fonction lancée au moment du callback
 
 Les callsbacks peuvent demander des paramètres.
@@ -25,7 +33,7 @@ Il faut donc les fournir dans la fonction lancée.
 
 :OUTOFWINDOW:
     - <Entity> - Entité qui dépasse les bords
-    - <List> - position de l'entité
+    - <Vec2> - position de l'entité
 
 .. note:: Un callback est simplement une fonction lancée
     suivant des évènements précis.
@@ -39,13 +47,4 @@ get_system
 :Retourne: <Systems|None> : Système du type <classe> s'il existe
 :Paramètre: <Systems> : Classe du système à récupérer
 
-.. note:: Systems fait référence aux systèmes (EntitySystem, UISystem, MusicSystem et MusicSystem)
-
-has_system
-----------
-
-:Description: Vérifie l'existence d'un système dans le monde
-:Retourne: <bool> : Vrai si le monde a le système. Sinon Faux
-:Paramètre: <Systems> : Classe du système à récupérer
-
-.. note:: Systems fait référence aux systèmes (EntitySystem, UISystem, MusicSystem et MusicSystem)
+.. note:: Systems fait référence aux systèmes (EntitySystem, UISystem, SoundSystem, CameraSystem et MusicSystem)

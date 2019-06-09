@@ -8,38 +8,20 @@ Constructeur
 
 :Description: Crée l'objet MoveComponent
 :Paramètres:
-    - direction <list> : Direction du mouvement
-    - speed <int> (5) : Vitesse du mouvement
+    - direction <Vec2> : Direction du mouvement
 
-.. note:: direction est une liste où le premier nombre correspond au mouvement en x et le second en y.
-    Cette liste ne doit contenir que des 1, -1 et 0. Exemple : (0, 1) créera un mouvement vers le bas
+Voici ses attributs :
 
-Voici ses méthodes :
-
-get_speed
+direction
 ---------
 
-:Description: Récupère la vitesse
-:Retourne: <int> : Vitesse du mouvement
-:Paramètre: Rien
+:Description: Vecteur direction du mouvement
+:Type: Vec2
 
-set_speed
----------
+entity
+------
 
-:Description: Définit la vitesse
-:Retourne: Rien
-:Paramètre: speed <int> : Vitesse du mouvement
+:Description: Entité lié au composant
+:Type: entity
 
-get_direction
--------------
-
-:Description: Récupère la direction
-:Retourne: <list> : Direction du mouvement
-:Paramètre: Rien
-
-set_direction
--------------
-
-:Description: Définit la direction
-:Retourne: Rien
-:Paramètre: direction <list> : Direction du mouvement
+.. note:: L'entité se définit elle même. Elle ne doit pas être modifiée

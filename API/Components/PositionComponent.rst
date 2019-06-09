@@ -8,24 +8,25 @@ Constructeur
 
 :Description: Crée l'objet PositionComponent
 :Paramètres:
-    - position <list> : Position de l'entité
-    - offset <list> ([0, 0]) : Offset de l'entité
+    - position <Vec2> : Position de l'entité
+    - offset <Vec2> (Vec2()) : Offset de l'entité
 
 .. note:: L'offset n'est utile que dans le cas d'entité 
     attachée à une autre entité.
 
-Voici ses méthodes :
+Voici ses attributs :
 
-get_position
-------------
+position
+--------
 
-:Description: Récupère la position
-:Retourne: <list> : Position de l'entité
-:Paramètre: Rien
+:Description: Position de l'entité
+:Type: Vec2
 
-set_position
-------------
+entity
+------
 
-:Description: Définit la position
-:Retourne: Rien
-:Paramètre: position <list> : Position de l'entité
+:Description: Entité lié au composant
+:Type: entity
+
+.. note:: L'entité se définit elle même. Elle ne doit pas être modifiée
+

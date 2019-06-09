@@ -7,6 +7,22 @@ Cette classe correspond au système de musique d'un monde
     Si votre mp3 ne fonctionne pas correctement, 
     utilisez une autre extension (exemple : .wav)
 
+Voici ses attributs :
+
+loop
+----
+
+:Description: Vrai si la queue est en mode boucle
+:Type: boolean
+
+volume
+------
+
+:Description: Volume du système
+:Type: int
+
+.. note:: Le volume doit être entre 0 et 100 sinon une erreur ValueError est lancée
+
 Voici ses méthodes :
 
 next_song
@@ -23,13 +39,6 @@ clear_queue
 :Retourne: Rien
 :Paramètre: Rien
 
-set_loop
---------
-
-:Description: Définit si la queue se rejoue
-:Retourne: Rien
-:Paramètre: loop <bool> : Vrai si la queue se rejoue. Sinon faux
-
 play
 ----
 
@@ -45,17 +54,6 @@ add
 :Description: Ajoute une musique à la queue
 :Retourne: Rien
 :Paramètre: file <string> : Chemin vers le fichier de la musique
-
-set_volume
-----------
-
-:Description: Définit le volume du système
-:Retourne: Rien
-:Paramètre: volume <int> : Volume du système
-
-.. note:: Le volume doit être compris entre 0 et 100
-
-.. warning:: Peut retourner une exception : ValueError
 
 stop
 ----

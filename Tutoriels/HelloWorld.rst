@@ -36,54 +36,6 @@ Pour régler ce problème, il faut lancer la boucle de la fenêtre. Pour cela, i
 
     fenetre.run()
 
-Mais ici, vous avez une erreur. Plus précisément, une NoObjectError. 
-Ceci s'explique par le fait que vous essayez de lancer la
-boucle d'une fenêtre qui n'a pas de GameState.
-
-.. note:: Une GameState est un état de votre jeu/programme. Par exemple, dans un flappy bird, il y a plusieurs états : le moment
-    où il y a le menu, le moment où on joue, le moment de fin de jeu...
-
-Création de la GameState
-------------------------
-
-Actuellement vous avez ceci :
-
-.. code-block:: python
-
-    from pyengine import Window
-    from pyengine.utils import Colors
-
-    fenetre = Window(500, 300, Colors.WHITE.value)
-    fenetre.run()
-
-Pour créer votre GameState, il va falloir importer puis utiliser sa classe :
-
-.. code-block:: python
-
-    from pyengine import GameState
-
-    state = GameState("HelloWorld")
-    # "HelloWorld" correspond au nom de votre state.
-
-Ensuite, il faut l'ajouter à votre fenêtre via un :
-
-.. code-block:: python
-
-    fenetre.add_state(state)
-
-En organisant bien votre code, vous devriez avoir quelque chose de ce style :
-
-.. code-block:: python
-
-    from pyengine import Window, GameState
-    from pyengine.utils import Colors
-
-    fenetre = Window(500, 300, Colors.WHITE.value)
-    state = GameState("HelloWorld")
-    
-    fenetre.add_state(state)
-    fenetre.run()
-
 Lancez le programme et vous devriez avoir ceci :
 
 .. image:: images/HelloWorld1.PNG
@@ -93,22 +45,23 @@ Création du texte
 
 Maintenant, nous allons afficher notre texte.
 
-Pour cela, nous allons utiliser le monde de notre GameState afin de récupérer le système qui gère l'ui.
+Pour cela, nous allons utiliser le monde de notre fenêtre afin de récupérer le système qui gère l'ui.
 
 .. code-block:: python
 
     from pyengine.Systems import UISystem
 
-    uisystem = state.get_system(UISystem)
+    uisystem = fenetre.world.get_system(UISystem)
 
 Ensuite, nous devons créer notre widget et l'ajouter à notre système :
 
 .. code-block:: python
 
     from pyengine.Widgets import Label
+    from pyengine.Utils import Vec2
 
-    hello = Label([0, 0], "Hello World !", Colors.BLACK.value)
-    # [0, 0] : Position x, y
+    hello = Label(Vec2(0, 0), "Hello World !", Colors.BLACK.value)
+    # Vec2(0, 0) : Position x, y
     # "Hello World !" : Texte
     # Colors.BLACK.value : Couleur noire
     uisystem.add_widget(hello)
@@ -120,16 +73,13 @@ Ce qui nous donne au final :
     from pyengine import Window, GameState
     from pyengine.Systems import UISystem
     from pyengine.Widgets import Label
-    from pyengine.utils import Colors
+    from pyengine.utils import Colors, Vec2
 
     fenetre = Window(500, 300, Colors.WHITE.value)
-    state = GameState("HelloWorld")
 
-    fenetre.add_state(state)
+    uisystem = fenetre.world.get_system(UISystem)
 
-    uisystem = state.get_system(UISystem)
-
-    hello = Label([0, 0], "Hello World !", Colors.BLACK.value)
+    hello = Label(Vec2(0, 0), "Hello World !", Colors.BLACK.value)
     uisystem.add_widget(hello)
 
     fenetre.run()

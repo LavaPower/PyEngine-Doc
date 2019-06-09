@@ -1,95 +1,32 @@
 Image
 =====
 
-Cette classe permet d'afficher une image
+Cette classe permet d'afficher une image.
+
+Elle a les mêmes attributs et fonctions que Widget.
+Mais elle ajoute aussi les suivants.
 
 Constructeur
 ------------
 
 :Description: Crée l'objet Image
 :Paramètres:
-    - position <list> : Position du widget
-    - image <string> : Chemin vers l'image
-    - size <list> (None) : Taille de l'image
+    - position <Vec2> : Position du widget
+    - sprite <string> : Chemin vers l'image
+    - size <None|Tuple[int, int]> (None) : Taille de l'image
 
 .. note:: Si size vaut None, l'image ne sera pas redimensionnée.
 
-get_image
----------
+Voici ses attributs :
 
-:Description: Récupère le chemin de l'image
-:Retourne: <string> : Chemin de l'image
-:Paramètre: Rien
+size
+----
 
-set_image
----------
+:Description: Taille de l'image
+:Type: Tuple[int, int]
 
-:Description: Définit l'image
-:Retourne: Rien
-:Paramètre: <string> : Chemin de l'image
-
-get_size
---------
-
-:Description: Récupère la taille de l'image
-:Retourne: <list> : Taille de l'image
-:Paramètre: Rien
-
-set_size
---------
-
-:Description: Définit la taille de l'image
-:Retourne: Rien
-:Paramètre: <list> : Taille de l'image
-
-get_id
+sprite
 ------
 
-:Description: Récupère l'id du widget
-:Retourne: <int> : Id du widget
-:Paramètre: Rien
-
-.. note:: L'id vaut -1 si le widget n'a pas été ajouté à un System.
-
-get_system
-----------
-
-:Description: Récupère le système du widget
-:Retourne:
-    <UISystem|None> : Système du widget si il a été ajouté à un UISystem
-:Paramètre: Rien
-
-get_position
-------------
-
-:Description: Récupère la position du widget
-:Retourne: <list> : Position du widget
-:Paramètre: Rien
-
-set_position
-------------
-
-:Description: Définit la position du widget
-:Retourne: Rien
-:Paramètre: <list> : Position du widget
-
-is_show
--------
-
-:Description: Savoir si le widget est affiché
-:Retourne: <bool> : Vrai si le widget est affiché
-:Paramètre: Rien
-
-show
-----
-
-:Description: Affiche un widget
-:Retourne: Rien
-:Paramètre: Rien
-
-hide
-----
-
-:Description: Cache un widget
-:Retourne: Rien
-:Paramètre: Rien
+:Description: Chemin vers l'image
+:Type: string

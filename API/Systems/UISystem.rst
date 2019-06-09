@@ -19,9 +19,7 @@ get_widget
 
 :Description: Récupère un widget au système
 :Retourne: <Widgets|None> : Widget s'il existe ou rien
-:Paramètre: widget <Widgets> : Classe du widget à récupérer
-
-.. note:: Widgets fait référence à toutes les classes étant des widgets.
+:Paramètre: identity <int> : Id du widget à récupérer
 
 has_widget
 ----------

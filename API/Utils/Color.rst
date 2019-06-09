@@ -12,33 +12,62 @@ Constructeur
     - g <int> (255) : Vert
     - b <int> (255) : Bleu
 
+Voici ses méthodes :
+
+get
+---
+
+:Description: Retourne la couleur en tuple
+:Retourne: <Tuple[int, int, int]>
+:Paramètre: Rien
+
 set
 ---
 
-:Description: Définit la couleur via une autre couleur
-:Retourne: Rien
-:Paramètre: color <Color> : Couleur
-
-clone
------
-
-:Description: Clone la couleur
-:Retourne: <Color> : Nouvelle couleur
-:Paramètre: Rien
-
-.. note:: Cette méthode est utile pour les couleurs définies dans l'énumération Colors.
-    Sans cette méthode, vous ne pouvez pas modifier les couleurs de l'énumération.
-
-lighter
--------
-
-:Description: Eclaircit la couleur
-:Retourne: <color> : Nouvelle Couleur
-:Paramètre: Rien
+:Description: Permet de définir une couleur
+:Retourne: <Color>
+:Paramètre: color <Color>
 
 darker
 ------
 
-:Description: Assombrit la couleur
-:Retourne: <color> : Nouvelle Couleur
+:Description: Retourne un couleur plus foncé
+:Retourne: <Color>
 :Paramètre: Rien
+
+lighter
+-------
+
+:Description: Retourne une couleur plus clair
+:Retourne: <Color>
+:Paramètre: Rien
+
+__add__
+-------
+
+:Description: Correspond à l'addition
+:Retourne: <Color>
+:Paramètre: <Color>
+
+__sub__
+-------
+
+:Description: Correspond à la soustraction
+:Retourne: <Color>
+:Paramètre: <Color>
+
+__repr__
+--------
+
+:Description: Correspond à la représentation en string
+:Retourne: <string>
+:Paramètre: Rien
+
+__eq__
+------
+
+:Description: Correspond à la comparaison '=='
+:Retourne: <bool>
+:Paramètre: <Color>
+
+

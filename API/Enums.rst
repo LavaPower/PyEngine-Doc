@@ -72,13 +72,13 @@ CollisionCauses
 
 .. note:: Si une collision à lieu à cause d'un saut, c'est la cause GRAVITY qui sera affichée.
 
-StateCallbacks
+WorldCallbacks
 --------------
 
 :Description: Correspond aux différents types de callback renvoyé par la state
 :Valeurs:
     - OUTOFWINDOW : Activé quand un élément dépasse les bords de l'écran
-:Classe: GameState
+:Classe: World
 
 .. note:: Un callback est simplement une fonction lancée
     suivant des évènements précis.

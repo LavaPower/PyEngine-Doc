@@ -9,14 +9,25 @@ Constructeur
 :Description: Crée l'objet Entity
 :Paramètre: Rien
 
-Voici ces méthodes :
+Voici ses attributs :
 
-get_id
+identity
+--------
+
+:Description: Id de l'entité
+:Type: int
+
+.. note:: Le système définit l'id lui même. Elle ne doit pas être changée.
+
+system
 ------
 
-:Description: Récupère l'id de l'entité
-:Retourne: <int> : Id de l'entité
-:Paramètre: Rien
+:Description: Système gérant l'entité
+:Type: EntitySystem
+
+.. note:: Le système se définit lui même. Il ne doit pas être changé.
+
+Voici ses méthodes :
 
 attach_entity
 -------------
@@ -34,7 +45,19 @@ add_component
 
 .. note:: Components fait référence à toutes les classes étant des composants.
 
-.. warning:: Peut retourner une exception : WrongObjectError
+.. warning:: Peut retourner une exception : TypeError
+
+remove_component
+----------------
+
+:Description: Supprime un composant à l'entité
+:Retourne: Rien
+:Paramètre: component <Components> : Composant à ajouter
+
+.. note:: Components fait référence à toutes les classes étant des composants.
+
+.. note:: Supprimer un composant peut être dangereux. 
+    Faites le que si vous n'avez pas le choix.
 
 has_component
 -------------

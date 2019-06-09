@@ -13,49 +13,55 @@ Constructeur
     - texte <string> : Texte à afficher
     - color <Color> (Color()) : Couleur du texte
     - font <Font> (Font()) : Police du texte
+    - background <Color|None> (None) : Couleur de fond
+    - scale <int> (1) : Scale du composant
+
+.. note:: Si background est à None la couleur sera transparente.
 
 .. warning:: Peut retourner une exception : CompatibilityError
 
-Voici ses méthodes :
+Voici ses attributs :
 
-set_color
----------
+scale
+-----
 
-:Description: Définit la couleur du texte
-:Retourne: Rien
-:Paramètre: color <Color> : Couleur
+:Description: Scale du composant
+:Type: int
 
-get_color
----------
+background
+----------
 
-:Description: Récupère la couleur du texte
-:Retourne: <Color> : Couleur
-:Paramètre: Rien
+:Description: Couleur de fond
+:Type: None ou Color
 
-set_text
---------
+color
+-----
 
-:Description: Définit le texte
-:Retourne: Rien
-:Paramètre: text <string> : Texte
+:Description: Couleur du texte
+:Type: Color
 
-get_text
---------
+font
+----
 
-:Description: Récupère le texte
-:Retourne: <string> : Texte
-:Paramètre: Rien
+:Description: Police du texte
+:Type: Font
 
-set_font
---------
+text
+----
 
-:Description: Définit la police
-:Retourne: Rien
-:Paramètre: police <Font> : Police
+:Description: Texte à afficher
+:Type: string
 
-get_font
---------
+rendered_size
+-------------
 
-:Description: Récupère la police
-:Retourne: <Font> : Police
-:Paramètre: Rien
+:Description: Taille du texte rendu
+:Type: Tuple[int, int]
+
+entity
+------
+
+:Description: Entité lié au composant
+:Type: entity
+
+.. note:: L'entité se définit elle même. Elle ne doit pas être modifiée

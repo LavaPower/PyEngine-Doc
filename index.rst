@@ -20,6 +20,7 @@ Sommaire :
    Informations/introduction
    Informations/telechargement-et-installation
    Informations/faq
+   Informations/changelog
 
 .. toctree::
    :maxdepth: 1
@@ -38,12 +39,13 @@ Sommaire :
    API/Exceptions
 
    API/Window
-   API/GameState
+   API/World
    API/Entity
    API/Systems/MusicSystem
    API/Systems/UISystem
    API/Systems/EntitySystem
    API/Systems/SoundSystem
+   API/Systems/CameraSystem
    API/Components/PositionComponent
    API/Components/SpriteComponent
    API/Components/TextComponent
@@ -58,4 +60,5 @@ Sommaire :
    API/Widgets/Entry
    API/Utils/Color
    API/Utils/Font
+   API/Utils/Vec2
 

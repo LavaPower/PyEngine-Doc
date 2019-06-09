@@ -29,18 +29,19 @@ Les éléments transitifs
 -----------------------
 
 Notre fenêtre a besoin de monde pour fonctionner. 
-Ceux ci sont simplement les GameStates.
+Ceux ci sont simplement les Worlds.
 Ce sont eux qui vont être directement rattaché à Window et qui correspondent aux mondes que vous voyez.
 
 Les éléments qui les suivent sont les Systems.
-Actuellement PyEngine possède 4 systèmes :
+Actuellement PyEngine possède 5 systèmes :
 
 - EntitySystem : Gestionnaire des entités
 - UISystem : Gestionnaire des widgets
 - MusicSystem : Gestionnaire de la musique de fond
 - SoundSystem : Gestionnaire des sons et bruitages
+- CameraSystem : Gestionnaire de la caméra
 
-MusicSystem et SoundSystem n'ont pas d'enfant et font donc aussi office d'éléments finaux.
+MusicSystem, CameraSystem et SoundSystem n'ont pas d'enfant et font donc aussi office d'éléments finaux.
 
 Mais EntitySystem peut avoir comme enfant des entités et UISystem peut avoir des widgets.
 

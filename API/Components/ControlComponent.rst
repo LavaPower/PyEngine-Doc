@@ -9,36 +9,38 @@ Constructeur
 :Description: Crée l'objet ControlComponent
 :Paramètres:
     - controltype <ControlType> : Type de contrôle
-    - speed <integer> (5) : Vitesse du mouvement
+    - speed <int> (5) : Vitesse du mouvement
     
+Voici ses attributs :
+
+speed
+-----
+
+:Description: Vitesse du mouvement
+:Type: int
+
+entity
+------
+
+:Description: Entité lié au composant
+:Type: entity
+
+.. note:: L'entité se définit elle même. Elle ne doit pas être modifiée
+
 Voici ses méthodes :
-
-get_control
------------
-
-:Description: Récupère un contrôle
-:Retourne: <int> : Constante correspondant à la touche
-:Paramètre: <Controls> : Contrôle à récupérer
 
 set_control
 -----------
 
-:Description: Définit un contrôle
+:Description: Définit un controle
 :Retourne: Rien
-:Paramètre: 
-    - name <Controls> : Contrôle à récupérer
-    - key <int> : Constante correspondant à la touche
+:Paramètres:
+    - control <Controls> : Controle à définir
+    - key <const> : Touche correspondant au controle
 
-get_speed
----------
+get_control
+-----------
 
-:Description: Récupère la vitesse
-:Retourne: <int> : Vitesse du mouvement
-:Paramètre: Rien
-
-set_speed
----------
-
-:Description: Définit la vitesse
-:Retourne: Rien
-:Paramètre: speed <int> : Vitesse du mouvement
+:Description: Récupère un controle
+:Retourne: <const> : Touche correspondant au controle
+:Paramètre: control <Controls> : Controle à récupérer 
