@@ -25,7 +25,11 @@ callback
 :Description: Fonction a appelé lors d'une collision
 :Type: Function
 
-.. note:: La fonction doit avec deux arguments : l'objet avec lequel il a eu collision et la cause
+.. note:: La fonction doit avec deux arguments : l'objet avec lequel il a eu collision et les informations de la collision
+
+.. note:: Les informations de la cause sont représentées par une classe ayant comme attributs :
+    - La cause de la collision (cause)
+    - Le coté de la collision (cote)
 
 entity
 ------

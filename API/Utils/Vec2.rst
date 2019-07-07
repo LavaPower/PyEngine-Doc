@@ -30,6 +30,14 @@ length
 
 Voici ses méthodes :
 
+normalized
+----------
+
+:Description: Retourne le vecteur normalisé
+:Retourne: <Vec2>
+:Paramètres: Rien
+
+
 __add__
 -------
 

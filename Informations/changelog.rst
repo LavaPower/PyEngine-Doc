@@ -3,6 +3,40 @@ Changelog
 
 Voici le changelog des versions de PyEngine.
 
+V 1.3.0 : Utils Update - 07/07/19
+---------------------------------
+
+- Window : Add is_running and update_rate property
+- Window : In debug, show fps in console (must be around 60)
+- Window-World : Rename and move WorldCallbacks to WindowCallbacks
+- WindowCallbacks : Add CHANGEWORLD and STOPWINDOW
+- Entity : Can't have the same type of component two times
+- EntitySystem-UISystem : Change debug color to blue for ui and red for entity
+- EntitySystem : Add get_all_entities function
+- PhysicsComponent : Create CollisionInfos
+- MoveComponent : Unlock diagonal movement
+- LifeComponent : Use clamp function to set life
+- AnimComponent : Create basic animator system
+- Entry : Add width and sprite property
+- Entry : Add color and front parameters
+- Entry : Define accepted letters
+- Network : Create basic network system
+- Vec2 : Add normalized function
+- Color : Add to_hex and from_hex function
+- Colors : Add new colors
+- loggers : Create logging System
+- Lang : Create translate system
+- Config : Create Config system
+- Maths : Create usefull functions (clamp)
+- Unit Tests : Add AnimComponent, loggers, config and lang tests
+- Unit Tests : Update Window, Color, Entry and World tests
+- Optimization and fix some little errors
+
+- Bug Fix : Entry is update without focus
+
+- Crash Fix : Crash when show id of Entity Texts
+- Crash Fix : Crash when use entity_follow of CameraSystem
+
 V 1.2.0 : Property Update - 09/06/19
 ------------------------------------
 

@@ -12,6 +12,13 @@ get_entity
 :Retourne: <Entity|None> : Entité si elle existe ou rien.
 :Paramètre: id <int> : Id de l'entité à récupérer
 
+get_all_entities
+----------------
+
+:Description: Récupère toutes les entités
+:Retourne: <Tuple[Entity]> : Liste des entités
+:Paramètres: Rien
+
 add_entity
 ----------
 
@@ -27,6 +34,7 @@ has_entity
 :Description: Savoir si une entité est enregistrée
 :Retourne: <bool> : Vrai si l'entité existe
 :Paramètre: entity <Entity> : Entité
+
 
 remove_entity
 -------------

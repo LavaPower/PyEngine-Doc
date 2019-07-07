@@ -1,5 +1,5 @@
 SpriteComponent
-=================
+===============
 
 Cette classe permet de définir un sprite à l'entité
 

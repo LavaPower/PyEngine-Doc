@@ -31,6 +31,12 @@ color
 :Description: Couleur de fond de la fenêtre
 :Type: Color
 
+update_rate
+-----------
+
+:Description: Nombre de frames par secondes théorique
+:Type: int
+
 size
 ----
 
@@ -64,5 +70,31 @@ run
 :Description: Lance le jeu
 :Retourne: Rien
 :Paramètre: Rien
+
+
+set_callback
+------------
+
+:Description: Définit un Callback
+:Retourne: Rien
+:Paramètres:
+    - callback <WindowCallbacks> : Callback à définir
+    - function <Function> : Fonction lancée au moment du callback
+
+Les callbacks peuvent demander des paramètres.
+Il faut donc les fournir dans la fonction lancée.
+
+:OUTOFWINDOW:
+    - <Entity> - Entité qui dépasse les bords
+    - <Vec2> - Position de l'entité
+:STOPWINDOW: Rien
+:CHANGEWORLD:
+    - <World> - Ancien Monde
+    - <World> - Nouveau Monde
+
+.. note:: Un callback est simplement une fonction lancée
+    suivant des évènements précis.
+
+.. warning:: Peut retourner une exception : TypeError
 
 .. warning:: Peut retourner les exceptions : NoObjectError

@@ -17,6 +17,18 @@ Colors
     - BLUE : Couleur bleue
     - RED : Couleur rouge
     - GREEN : Couleur verte
+    - FUCHSIA : Couleur fuchsia
+    - GRAY : Couleur grise
+    - LIME : Couleur vert clair
+    - MAROON : Couleur marron
+    - NAVYBLUE : Couleur bleu clair
+    - OLIVE : Couleur olive 
+    - PURPLE : Couleur violetle
+    - SILVER : Couleur argent
+    - TEAL : Couleur teal 
+    - YELLOW : Couleur jaune
+    - ORANGE : Couleur orange 
+    - CYAN : Couleur cyan
 :Classe: Color
 
 .. note:: Pour utiliser ces couleurs, il faut utiliser la méthode .value() dessus.
@@ -72,13 +84,15 @@ CollisionCauses
 
 .. note:: Si une collision à lieu à cause d'un saut, c'est la cause GRAVITY qui sera affichée.
 
-WorldCallbacks
---------------
+WindowCallbacks
+---------------
 
 :Description: Correspond aux différents types de callback renvoyé par la state
 :Valeurs:
     - OUTOFWINDOW : Activé quand un élément dépasse les bords de l'écran
-:Classe: World
+    - CHANGEWORLD : Activé quand on change de monde
+    - STOPWINDOW : Activé à l'arret de la fenêtre
+:Classe: Window
 
 .. note:: Un callback est simplement une fonction lancée
     suivant des évènements précis.

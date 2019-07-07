@@ -58,6 +58,8 @@ rendered_size
 :Description: Taille du texte rendu
 :Type: Tuple[int, int]
 
+.. note:: La taille du texte rendu ne peut et ne doit pas être modifiée
+
 entity
 ------
 

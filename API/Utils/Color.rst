@@ -28,6 +28,20 @@ set
 :Retourne: <Color>
 :Paramètre: color <Color>
 
+to_hex
+------
+
+:Description: Retourne la couleur en hexadécimal
+:Retourne: <string>
+:Paramètre: Rien
+
+from_hex
+--------
+
+:Description: Définit la couleur à partir de l'hexadécimal
+:Retourne: Rien
+:Paramètre: <string>
+
 darker
 ------
 

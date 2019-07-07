@@ -19,27 +19,6 @@ window
 
 Voici ses méthodes :
 
-set_callback
-------------
-
-:Description: Définit un Callback
-:Retourne: Rien
-:Paramètres:
-    - callback <WorldCallbacks> : Callback à définir
-    - function <Function> : Fonction lancée au moment du callback
-
-Les callsbacks peuvent demander des paramètres.
-Il faut donc les fournir dans la fonction lancée.
-
-:OUTOFWINDOW:
-    - <Entity> - Entité qui dépasse les bords
-    - <Vec2> - position de l'entité
-
-.. note:: Un callback est simplement une fonction lancée
-    suivant des évènements précis.
-
-.. warning:: Peut retourner une exception : TypeError
-
 get_system
 ----------
 

@@ -37,28 +37,14 @@ Sommaire :
 
    API/Enums
    API/Exceptions
-
-   API/Window
-   API/World
    API/Entity
-   API/Systems/MusicSystem
-   API/Systems/UISystem
-   API/Systems/EntitySystem
-   API/Systems/SoundSystem
-   API/Systems/CameraSystem
-   API/Components/PositionComponent
-   API/Components/SpriteComponent
-   API/Components/TextComponent
-   API/Components/PhysicsComponent
-   API/Components/MoveComponent
-   API/Components/ControlComponent
-   API/Components/LifeComponent
-   API/Widgets/Widget
-   API/Widgets/Label
-   API/Widgets/Image
-   API/Widgets/Button
-   API/Widgets/Entry
-   API/Utils/Color
-   API/Utils/Font
-   API/Utils/Vec2
+   API/World
+   API/Window
+
+   API/Systems/index.rst
+   API/Components/index.rst
+   API/Widgets/index.rst
+   API/Network/index.rst
+   API/Utils/index.rst
+
 
