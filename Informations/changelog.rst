@@ -3,6 +3,46 @@ Changelog
 
 Voici le changelog des versions de PyEngine.
 
+V 1.4.0 : All Update - 13/07/19
+-------------------------------
+
+- AnimComponent : Add play attribute
+- AnimComponent : Use clamp function to set timer
+- PositionComponent : Offset is now a property
+- PositionComponent : position return the position without offset
+- SpriteComponent : Scale don't modify width and height
+- LifeComponent : Add callback which is trigger when entity has 0 pv
+- Network : If packet have "TOALL" as type, author will recieve the packet
+- Tilemap : Create basic tilemap (using Tiled)
+- Button-Image : size is now a Vec2
+- Button : Only Left Button of Mouse trigger Button
+- Button : Remove btn argument on command of Button
+- Checkbox : Create checkbox widget
+- ProgressBar : Create progressbar widget
+- Entry : Add accents letters in accepted and remove some weird symbol
+- Color : Use clamp function
+- Maths : Clamp function can be use without max or/and min value
+- Font : Add rendered_size function
+- Vec2 : Add divide operator
+- Vec2 : Add iterator
+- Vec2 : Change representation in string to "Vec2(X, Y)"
+- Unit Tests : Add Tilemap, Prefabs and Network tests
+- Unit Tests : Update Components and Widgets tests
+- Setup : Add numpy as dependances
+- README : Add version of pygame
+- README : Remove useless section
+
+- Optimization
+
+- Bug Fix : Button must be focused to be hover
+- Bug Fix : Rescale SpriteComponent can make weird result
+- Bug Fix : Shift-capitals must be typed twice in Entry to be writed
+- Bug Fix : Text can be more longer than the Entry
+- Bug Fix : Press an other key than the actuel break the movement with ControlComponent
+
+- Crash Fix : Crash sometimes to create hover button with sprite
+- Crash Fix : Crash when import Vec2 at first
+
 V 1.3.0 : Utils Update - 07/07/19
 ---------------------------------
 
