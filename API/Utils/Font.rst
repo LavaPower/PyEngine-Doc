@@ -41,6 +41,13 @@ italic
 
 Voici ses méthodes :
 
+renderer_size
+-------------
+
+:Description: Correspond à la taille du rendu d'un texte
+:Retourne: Tuple[int, int]
+:Paramètre: text <string> : Texte à rendre
+
 __repr__
 --------
 

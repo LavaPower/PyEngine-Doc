@@ -7,7 +7,9 @@ Constructeur
 ------------
 
 :Description: Crée l'objet LifeComponent
-:Paramètre: maxlife <int> (100) : Vie maximum
+:Paramètres: 
+    - maxlife <int> (100) : Vie maximum
+    - callback <function> (None) : Fonction s'activant quand la vie arrive à 0 
 
 Voici ses attributs :
 
@@ -26,6 +28,12 @@ maxlife
 
 :Description: Vie maximum
 :Type: int
+
+callback
+--------
+
+:Description: Fonction s'activant quand la vie arrive à 0 
+:Type: function
 
 entity
 ------

@@ -59,6 +59,20 @@ __mul__
 :Retourne: <Vec2>
 :Paramètre: <Vec2|int>
 
+__truediv__
+-----------
+
+:Description: Correspond à la division
+:Retourne: <Vec2>
+:Paramètre: <Vec2|int>
+
+__iter__
+--------
+
+:Description: Correspond à l'interateur (for i in Vec2)
+:Retourne: <int>
+:Paramètre: Rien 
+
 __repr__
 --------
 
