@@ -6,6 +6,8 @@ Cette classe permet d'afficher un texte.
 Elle a les mêmes attributs et fonctions que Widget.
 Mais elle ajoute aussi les suivants.
 
+.. warning:: Label ne supporte pas les sauts de ligne. Utilisez MultilinesLabel
+
 Constructeur
 ------------
 

@@ -37,10 +37,10 @@ Sommaire :
 
    API/Enums
    API/Exceptions
-   API/Entity
    API/World
    API/Window
 
+   API/Entities/index.rst
    API/Systems/index.rst
    API/Components/index.rst
    API/Widgets/index.rst

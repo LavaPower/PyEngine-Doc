@@ -19,8 +19,11 @@ stop
 send
 ----
 
-:Description: Envois un message au serveur
+:Description: Envois un packet au serveur
 :Retourne: Rien
-:Paramètre: packet <Packet> : Packet représentant le message
+:Paramètres: 
+    - type <str> : Type du packet
+    - author <int> : Id de l'auteur du packet
+    - message <str> : Message du packet
 
 .. note:: Sans modification, le serveur se contentera de renvoyer le packet à tous les autres clients

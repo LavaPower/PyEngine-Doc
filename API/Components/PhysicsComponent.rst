@@ -10,6 +10,7 @@ Constructeur
 :Paramètres:
     - affectbygravity <bool> (True) : Affecté par la gravité ou non
     - gravity_force <int> (5) : Puissance de la gravité
+    - callback <function> (None) : Fonction appelé lors de la collision
 
 Voici ses attributs :
 

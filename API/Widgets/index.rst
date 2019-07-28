@@ -11,3 +11,7 @@ Vous trouverez dans cette catégorie toutes les classes et fonctions relatant au
     Label
     Image
     Widget
+    MultilineLabel
+    Console
+    AnimatedImage
+    Selector

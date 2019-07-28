@@ -19,16 +19,20 @@ coords
 :Description: Coordonnées du vecteur
 :Type: Tuple[int, int]
 
+fcoords
+-------
+
+:Description: Coordonnées du vecteur
+:Type: Tuple[float, float]
+
+Voici ses méthodes :
+
 length
 ------
 
 :Description: Longueur du vecteur
 :Type: int
 
-.. note:: Length n'a pas de setter, vous ne pouvez pas la définir.
-    Cependant, elle est modifié par les coordonnées.
-
-Voici ses méthodes :
 
 normalized
 ----------

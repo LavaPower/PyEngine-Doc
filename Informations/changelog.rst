@@ -3,6 +3,65 @@ Changelog
 
 Voici le changelog des versions de PyEngine.
 
+V 1.5.0 - 28/07/19
+------------------
+
+- Entity-Tilemap : Move to "Entities" folder
+- ControlComponent : Add MOUSEFOLLOW ControlType
+- PhysicsComponent : Add MOUSEFOLLOW and MOUSECLICK CollisionCauses
+- Client : Send type, author and message. Packet are used only in PyEngine
+- Button : Add enabled property
+- Entry : Add Ctrl-C and Ctrl-V
+- Entry : Remove limit of caracters
+- Entry : Repeats the characters if the key is kept pressed
+- Console : Create console widget
+- MultilineLabel : Create Label widget for multiline
+- Label : Replace \n to void. Label doesn't support break lines
+- AnimatedImage : Create Image widget which support multiple images
+- Selector : Create selector widget
+- Others : Rename Maths to Others
+- Others : Add wrap_text and get_images_from_gif functions
+- Unit Tests : Fix Vec2 and Color tests
+- Unit Tests : Add Console and MultilineLabel tests
+
+- Optimization
+
+- Bug Fix : ControlComponent make weird movements with MOUSECLICK ControlType
+
+- Crash Fix : Crash when use show or hide
+- Crash Fix : Crash when Client doesn't have callback
+- Crash Fix : Crash when UISystem must show widgets without image or rect
+
+V 1.4.2 - 17/07/19
+------------------
+
+- PhysicsComponent : Add callback parameters of constructor
+- Tilemap : place tile at bottom
+
+- Optimization
+
+- Bug Fix : OUTOFWINDOW doesn't work with CameraSystem
+- Bug Fix : Remove offset when change position
+- Bug Fix : Hide and Show doesn't spread to child in Widgets
+- Bug Fix : Focus stays when widget is hide
+
+Cette MAJ ne casse pas la combatilbilité avec la précédente.
+
+V 1.4.1 - 14/07/19
+------------------
+
+- Color : Add parameter to apply darker or lighter x times
+
+- Optimization
+
+- Bug Fix : Fix Diagonal movement from MoveComponent
+- Bug Fix : EntitySystem give wrong id to tiles of Tilemap
+- Bug Fix : Sprite is rescale at every change of sprite in SpriteComponent
+- Bug Fix : If tileset isn't in the same director than tilemap, sprites isn't found
+- Bug Fix : ControlComponent save the keypressed when change world
+
+Cette MAJ ne casse pas la combatilbilité avec la précédente.
+
 V 1.4.0 : All Update - 13/07/19
 -------------------------------
 
