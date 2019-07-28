@@ -44,7 +44,6 @@ Sommaire :
    API/Systems/index.rst
    API/Components/index.rst
    API/Widgets/index.rst
-   API/Prefabs/index.rst
    API/Network/index.rst
    API/Utils/index.rst
 
