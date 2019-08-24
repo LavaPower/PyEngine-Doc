@@ -9,16 +9,50 @@ Constructeur
 :Description: Crée l'objet PhysicsComponent
 :Paramètres:
     - affectbygravity <bool> (True) : Affecté par la gravité ou non
-    - gravity_force <int> (5) : Puissance de la gravité
+    - friction <float> (.5) : Friction de l'objet
+    - elasticity <float> (.5) : Elasticité de l'objet
+    - mass <int> (1) : Masse de l'objet
+    - solid <bool> (True) : Si vrai, l'objet ne pourra pas être traversé
+    - can_rot <bool> (True) : Si vrai, la rotation ne sera pas bloquée
     - callback <function> (None) : Fonction appelé lors de la collision
 
 Voici ses attributs :
 
-gravity
+affectbygravity
+---------------
+
+:Description: Affecté par la gravité ou non
+:Type: bool
+
+friction
+--------
+
+:Description: Friction de l'objet
+:Type: float
+
+elasticity
+----------
+
+:Description: Elasticité de l'objet
+:Type: float
+
+mass
+----
+
+:Description: Masse de l'objet
+:Type: int
+
+solid
+-----
+
+:Description: Si vrai, l'objet ne pourra pas être traversé
+:Type: bool
+
+can_rot
 -------
 
-:Description: Force de la gravité appliqué
-:Type: int
+:Description: Si vrai, la rotation ne sera pas bloquée
+:Type: bool
 
 callback
 --------

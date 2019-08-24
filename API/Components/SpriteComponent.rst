@@ -13,6 +13,8 @@ Constructeur
     - image <string> : Chemin vers le sprite
     - scale <integer> (1) : "Zoom" sur le sprite
     - rotation <integer> (0) : Rotation du sprite
+    - flipx <bool> (False) : Si vrai, l'image va être retournée suivant l'axe X
+    - flipy <bool> (False) : Si vrai, l'image va être retourneée suivant l'axe Y
 
 .. warning:: Peut retourner une exception : CompatibilityError
 
@@ -37,6 +39,18 @@ rotation
 
 :Description: Rotation du sprite
 :Type: int
+
+flipx
+-----
+
+:Description: Si vrai, les images vont être retourner suivant l'axe X
+:Type: bool
+
+flipy
+-----
+
+:Description: Si vrai, les images vont être retourner suivant l'axe y
+:Type: bool
 
 sprite
 ------

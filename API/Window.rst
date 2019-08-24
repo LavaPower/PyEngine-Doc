@@ -13,9 +13,13 @@ Constructeur
     - color <Color> (Color()) : Couleur de fond
     - title <string> ("PyEngine") : Titre de la fenêtre
     - icon <string> (None) : Chemin vers l'icon de la fenêtre
+    - limit_fps <int> (None) : Nombre de FPS maximum
+    - update_rate <int> (60) : Nombre d'update par seconde
     - debug <boolean> (False) : Mode debug
 
 .. note:: Si l'icon vaut "None" la fenêtre aura l'icon de PyGame
+
+.. note:: Si limit_fps vaut "None" les FPS ne seront pas bloqués
 
 Voici ses attributs :
 
@@ -34,7 +38,13 @@ color
 update_rate
 -----------
 
-:Description: Nombre de frames par secondes théorique
+:Description: Nombre d'update par seconde
+:Type: int
+
+limit_fps
+---------
+
+:Description: Nombre de FPS maximum
 :Type: int
 
 size

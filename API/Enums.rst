@@ -41,7 +41,6 @@ ControlType
 :Valeurs:
     - FOURDIRECTION : L'objet se déplace dans les quatres directions.
     - CLASSICJUMP : L'objet se déplace latéralement et fait un saut simple
-    - DOUBLEJUMP : Comme le CLASSICJUMP mais avec un double saut
     - CLICKFOLLOW : L'objet se déplace vers l'endroit du clic de la souris
     - LEFTRIGHT : L'objet se déplace latéralement, sans saut
     - UPDOWN : L'objet se déplace de bas en haut
@@ -68,22 +67,6 @@ MouseButton
     - RIGHTCLICK : Clic droit
 :Classe: ControlComponent
 
-CollisionCauses
----------------
-
-:Description: Correspond aux différentes causes d'une collision
-:Valeurs:
-    - UNKNOWN : Cause inconnu
-    - GRAVITY : Causée par la gravité
-    - LEFTCONTROL : Causée par un déplacement à gauche du ControlComponent
-    - RIGHTCONTROL : Causée par un déplacement à droite du ControlComponent
-    - UPCONTROL : Causée par un déplacement en haut du ControlComponent
-    - DOWNCONTROL : Causée par un déplacement en bas du ControlComponent
-    - MOVECOMPONENT : Causée par un déplacement du MoveComponent
-:Classe: PhysicComponent
-
-.. note:: Si une collision à lieu à cause d'un saut, c'est la cause GRAVITY qui sera affichée.
-
 WindowCallbacks
 ---------------
 
@@ -92,6 +75,7 @@ WindowCallbacks
     - OUTOFWINDOW : Activé quand un élément dépasse les bords de l'écran
     - CHANGEWORLD : Activé quand on change de monde
     - STOPWINDOW : Activé à l'arret de la fenêtre
+    - RUNWINDOW : Activé au lancement de la fenêtre
 :Classe: Window
 
 .. note:: Un callback est simplement une fonction lancée

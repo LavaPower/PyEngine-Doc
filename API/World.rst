@@ -7,7 +7,9 @@ Constructeur
 ------------
 
 :Description: Crée l'objet Monde
-:Paramètre: window <Window> : Fenêtre liée au monde
+:Paramètres:
+    - window <Window> : Fenêtre liée au monde
+    - gravity <Tuple[int, int]> ([0, -900]) : Gravité du monde
 
 Voici ses attributs :
 
@@ -16,6 +18,12 @@ window
 
 :Description: Fenêtre liée au monde
 :Type: Window
+
+gravity
+-------
+
+:Description: Gravité du monde
+:Type: Tuple[int, int]
 
 Voici ses méthodes :
 

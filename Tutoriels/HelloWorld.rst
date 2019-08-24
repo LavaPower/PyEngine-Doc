@@ -70,7 +70,7 @@ Ce qui nous donne au final :
 
 .. code-block:: python
 
-    from pyengine import Window, GameState
+    from pyengine import Window
     from pyengine.Systems import UISystem
     from pyengine.Widgets import Label
     from pyengine.utils import Colors, Vec2
