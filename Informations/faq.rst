@@ -1,35 +1,35 @@
 FAQ
 ===
 
-Qu'est-ce que PyEngine ?
+What is PyEngine?
 ------------------------
 
-PyEngine est une bibliothèque python permettant de créer des jeux
-vidéos 2D plus facilement.
-C'est une sorte de moteur de jeu très simplifié sans interface.
+PyEngine is a python library for creating games
+2D videos more easily.
+It is a kind of very simplified game engine without an interface.
 
-Pourquoi créer PyEngine ?
--------------------------
+Why create PyEngine?
+--------------------
 
-Pour créer un jeu vidéo en python, il existe déjà le très bon PyGame.
+To create a video game in python, there is already the very good PyGame.
 
-Mais en créant mon jeu, je devais créer des systèmes 
-(comme le système d'entité) qui sont pourtant utiles pour tous.
-J'ai donc fait le choix de créer PyEngine (qui utilise PyGame lui même)
-(Et puis ça permet un bon entrainement en Python).
+But when I created my game, I had to create systems 
+(such as the entity system) that are useful for all.
+So I chose to create PyEngine (which uses PyGame itself)
+(And then it allows a good training in Python).
 
-Quelles sont les dépendances de PyEngine ?
-------------------------------------------
+What are the dependencies of PyEngine?
+--------------------------------------
 
-Si ce n'est Python, PyEngine utilise PyGame.
+ Apart from Python, PyEngine uses PyGame.
 
-Quelles sont les plateformes où PyEngine est utilisable ?
----------------------------------------------------------
+What are the platforms where PyEngine can be used?
+--------------------------------------------------
 
-Si vous pouvez utiliser PyGame et Python, vous pouvez utiliser PyEngine.
+If you can use PyGame and Python, you can use PyEngine.
 
-Je souhaite participer au développement de PyEngine, comment faire ?
---------------------------------------------------------------------
+I would like to participate in the development of PyEngine, how do I do it?
+----------------------------------------------------------------------------
 
-Envoyez moi un message par Discord (LavaPower#2480) pour voir ce que
-vous pouvez faire.
+Send me a message by Discord (LavaPower#2480) to see what
+you can do or go to GitHub

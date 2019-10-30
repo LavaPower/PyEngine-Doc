@@ -1,14 +1,14 @@
 PyEngine - Doc
 ==============
 
-Bienvenue sur la documentation de la bibliothèque PyEngine.
+Welcome to documentation of PyEngine.
 
-PyEngine est constamment en développement, la documentation 
-est donc susceptible d'être changée.
-N'hésitez pas à y revenir dès que vous avez un problème.
+PyEngine is constantly under development, the documentation 
+is therefore subject to change.
+Feel free to come back to it as soon as you have a problem.
 
-.. note:: Il est important de rappeler que PyEngine est un projet OpenSource et développé par des personnes non professionnelles.
-    Vous pouvez, vous aussi, y participer via le github.
+.. note:: It is important to remember that PyEngine is an OpenSource project developed by non-professionals.
+    You can also participate with Github.
 
 Sommaire :
 
@@ -23,28 +23,23 @@ Sommaire :
    Informations/changelog
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Tutoriels
-   :name: sec-tuto
+    :maxdepth: 1
+    :caption: API
+    :name: sec-api
 
-   Tutoriels/Theorie
-   Tutoriels/HelloWorld
+    API/Window
+    API/World
+    API/WorldSystems
+    API/WindowSystems
+    API/Widgets
+    API/Entities
+    API/Components
+    API/Utils
 
-.. toctree::
-   :maxdepth: 1
-   :caption: API
-   :name: sec-api
 
-   API/Enums
-   API/Exceptions
-   API/World
-   API/Window
-
-   API/Entities/index.rst
-   API/Systems/index.rst
-   API/Components/index.rst
-   API/Widgets/index.rst
-   API/Network/index.rst
-   API/Utils/index.rst
-
+Indices and tables
+==================
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
 

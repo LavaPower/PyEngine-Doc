@@ -1,7 +1,8 @@
-Window
-======
+Entities
+========
 
-.. autoclass:: pyengine2.Window
+
+.. autoclass:: pyengine2.Entities.Entity
     :members:
     :private-members:
     :inherited-members:

@@ -1,19 +1,19 @@
-Téléchargement et Installation
+Download and Installation
 ==============================
 
-Dernière release (Méthode simple)
+Last release (Simple method)
 ---------------------------------
 
-- Avoir Python et Pip installés
-- Faire dans une console : `pip install PyEngine-2D`
-- PyEngine est téléchargé et installé
+- Have Python and Pip installed
+- Do in a console: `pip install PyEngine-2`.
+- PyEngine is downloaded and installed
 
-Version en développement (Méthode moins simple)
+Version under development (Less simple method)
 -----------------------------------------------
 
-- Avoir Python et Pip installés
-- Télécharger et décompresser les fichiers du github (http://github.com/pyengine-2D/PyEngine)
-- Faire dans une console à l'endroit où sont les fichiers : 
+- Have Python and Pip installed
+- Download and decompress github files (http://github.com/pyengine-2D/PyEngine-2)
+- Do in a console where files are: 
     `python setup.py install`.
-- PyEngine est téléchargé et installé
+- PyEngine is downloaded and installed
 
